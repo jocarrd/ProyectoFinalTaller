@@ -73,14 +73,13 @@ int MeanObliquity_01() {
     double mj, sol;
     sol = 0.409103979370901;
 
-    //ESTA LINEA COMENTADA ERA PORQUE ESTUBO JUGANDO PORQUE DABAN PROBLEMAS CON LA ARITMETICA O NO SE QUE
+    
     //print("Mj = %5.15lf\n", MeanObliquity(49746.1097222222));
 
     _assert(fabs(sol - MeanObliquity(49746.1097222222)) < pow(10, -10));
     return 0;
 }
-// EL PROFESOR PIDIO UN TEST CON UN RADIAN,SACANDO LOS VALORES A ASIGNAR A SOL DE MATLAB
-//EJECUTANDO
+
 
 int R_x_01() {
     double **sol, **m;

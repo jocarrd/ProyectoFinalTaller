@@ -32,6 +32,7 @@
     <ClCompile Include="Mjday_TDB.c" />
     <ClCompile Include="NutAngles.c" />
     <ClCompile Include="NutMatrix.c" />
+    <ClCompile Include="ode_test.c" />
     <ClCompile Include="Position.c" />
     <ClCompile Include="R_x.c" />
     <ClCompile Include="sign_.c" />
@@ -54,6 +55,7 @@
     <ClInclude Include="Mjday_TDB.h" />
     <ClInclude Include="NutAngles.h" />
     <ClInclude Include="NutMatrix.h" />
+    <ClInclude Include="ode.h" />
     <ClInclude Include="Position.h" />
     <ClInclude Include="R_x.h" />
     <ClInclude Include="sign_.h" />
