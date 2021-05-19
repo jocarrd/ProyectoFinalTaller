@@ -19,13 +19,16 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="anglesdr.c" />
     <ClCompile Include="Array.c" />
     <ClCompile Include="eccanom.c" />
     <ClCompile Include="EqnEquinox.c" />
     <ClCompile Include="Frac.c" />
     <ClCompile Include="FuncionesMatlab.c" />
+    <ClCompile Include="Geodetic.c" />
     <ClCompile Include="gmst.c" />
     <ClCompile Include="JPL_Eph_DE430.c" />
+    <ClCompile Include="LTC.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="MeanObliquity.c" />
     <ClCompile Include="Mjday.c" />
@@ -35,21 +38,26 @@
     <ClCompile Include="ode_test.c" />
     <ClCompile Include="Position.c" />
     <ClCompile Include="R_x.c" />
+    <ClCompile Include="R_y.c" />
+    <ClCompile Include="R_z.c" />
     <ClCompile Include="sign_.c" />
     <ClCompile Include="testIOD_KF.c" />
     <ClCompile Include="timediff.c" />
     <ClCompile Include="unit.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="anglesdr.h" />
     <ClInclude Include="Array.h" />
     <ClInclude Include="eccanom.h" />
     <ClInclude Include="EqnEquinox.h" />
     <ClInclude Include="Frac.h" />
     <ClInclude Include="FuncionesMatlab.h" />
+    <ClInclude Include="Geodetic.h" />
     <ClInclude Include="globales.h" />
     <ClInclude Include="gmst.h" />
     <ClInclude Include="iodkf.h" />
     <ClInclude Include="JPL_Eph_DE430.h" />
+    <ClInclude Include="LTC.h" />
     <ClInclude Include="MeanObliquity.h" />
     <ClInclude Include="Mjday.h" />
     <ClInclude Include="Mjday_TDB.h" />
@@ -58,6 +66,8 @@
     <ClInclude Include="ode.h" />
     <ClInclude Include="Position.h" />
     <ClInclude Include="R_x.h" />
+    <ClInclude Include="R_y.h" />
+    <ClInclude Include="R_z.h" />
     <ClInclude Include="sign_.h" />
     <ClInclude Include="timediff.h" />
     <ClInclude Include="unit.h" />

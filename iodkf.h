@@ -5,10 +5,10 @@
 
 
 #define pi          3.14159265358979323846  
-#define pi2         2*3.14159265358979323846               // 2pi
-#define Rad        	3.14159265358979323846/180              // Radians per degree
-#define Deg         180/3.14159265358979323846             // Degrees per radian
-#define Arcs        3600*180/3.14159265358979323846        // Arcseconds per radian
+#define pi2         2*pi               // 2pi
+#define Rad        	pi/180              // Radians per degree
+#define Deg         180/pi            // Degrees per radian
+#define Arcs        3600*180/pi       // Arcseconds per radian
 
 // General
 #define MJD_J2000   51544.5             // Modified Julian Date of J2000
