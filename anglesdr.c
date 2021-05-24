@@ -42,6 +42,11 @@ void anglesdr(double az1, double az2, double az3, double el1, double el2, double
 	double** M3 = LTC(*lon3, *lat3);
 
 
+	double Mjd_UTC = Mjd1;
+
+
+
+
 
 
 }

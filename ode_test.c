@@ -9,32 +9,10 @@ void test01 ( void );
 void test02 ( void );
 void f01 ( double t, double y[], double yp[] );
 
-/******************************************************************************/
 
 int main ( )
 
-/******************************************************************************/
-/*
-  Purpose:
 
-    MAIN is the main program for ODE_TEST.
-
-  Discussion:
-
-    ODE_TEST tests the ODE library.
-
-  Licensing:
-
-    This code is distributed under the GNU LGPL license.
-
-  Modified:
-
-    01 February 2012
-
-  Author:
-
-    John Burkardt
-*/
 {
   timestamp ( );
   printf ( "\n" );
@@ -44,9 +22,7 @@ int main ( )
 
   test01 ( );
   test02 ( );
-/*
-  Terminate.
-*/
+
   printf ( "\n" );
   printf ( "ODE_TEST\n" );
   printf ( "  Normal end of execution.\n" );
@@ -55,28 +31,11 @@ int main ( )
 
   return 0;
 }
-/******************************************************************************/
+
 
 void test01 ( void )
 
-/******************************************************************************/
-/*
-  Purpose:
 
-    TEST01 tests ODE.
-
-  Licensing:
-
-    This code is distributed under the GNU LGPL license.
-
-  Modified:
-
-    02 February 2012
-
-  Author:
-
-    John Burkardt
-*/
 {
   double abserr;
   int i;
@@ -134,28 +93,12 @@ void test01 ( void )
 
   return;
 }
-/******************************************************************************/
+
 
 void test02 ( void )
 
-/******************************************************************************/
-/*
-  Purpose:
 
-    TEST02 tests ODE by integrating in the NEGATIVE time direction.
 
-  Licensing:
-
-    This code is distributed under the GNU LGPL license.
-
-  Modified:
-
-    02 February 2012
-
-  Author:
-
-    John Burkardt
-*/
 {
   double abserr;
   int i;
@@ -216,36 +159,11 @@ void test02 ( void )
 
   return;
 }
-/******************************************************************************/
+
 
 void f01 ( double t, double y[], double yp[] )
 
-/******************************************************************************/
-/*
-  Purpose:
 
-    F01 supplies the right hand side of the ODE for problem 1.
-
-  Licensing:
-
-    This code is distributed under the GNU LGPL license.
-
-  Modified:
-
-    02 February 2012
-
-  Author:
-
-    John Burkardt
-
-  Parameters:
-
-    Input, double T, the time.
-
-    Input, double Y[], the dependent variable.
-
-    Output, double YP[], the value of the derivative.
-*/
 {
   yp[0] =   y[1];
   yp[1] = - y[0];

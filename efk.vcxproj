@@ -27,7 +27,10 @@
     <ClCompile Include="FuncionesMatlab.c" />
     <ClCompile Include="Geodetic.c" />
     <ClCompile Include="gmst.c" />
+    <ClCompile Include="hgibbs.c" />
+    <ClCompile Include="IERS.c" />
     <ClCompile Include="JPL_Eph_DE430.c" />
+    <ClCompile Include="Legendre.c" />
     <ClCompile Include="LTC.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="MeanObliquity.c" />
@@ -55,8 +58,11 @@
     <ClInclude Include="Geodetic.h" />
     <ClInclude Include="globales.h" />
     <ClInclude Include="gmst.h" />
+    <ClInclude Include="hgibbs.h" />
+    <ClInclude Include="IERS.h" />
     <ClInclude Include="iodkf.h" />
     <ClInclude Include="JPL_Eph_DE430.h" />
+    <ClInclude Include="Legendre.h" />
     <ClInclude Include="LTC.h" />
     <ClInclude Include="MeanObliquity.h" />
     <ClInclude Include="Mjday.h" />
