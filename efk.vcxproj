@@ -19,13 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AccelPointMass.c" />
     <ClCompile Include="anglesdr.c" />
     <ClCompile Include="Array.c" />
+    <ClCompile Include="Cheb3D.c" />
     <ClCompile Include="eccanom.c" />
     <ClCompile Include="EqnEquinox.c" />
     <ClCompile Include="Frac.c" />
     <ClCompile Include="FuncionesMatlab.c" />
+    <ClCompile Include="gast.c" />
     <ClCompile Include="Geodetic.c" />
+    <ClCompile Include="GHAMatrix.c" />
     <ClCompile Include="gmst.c" />
     <ClCompile Include="hgibbs.c" />
     <ClCompile Include="IERS.c" />
@@ -39,7 +43,9 @@
     <ClCompile Include="NutAngles.c" />
     <ClCompile Include="NutMatrix.c" />
     <ClCompile Include="ode_test.c" />
+    <ClCompile Include="PoleMatrix.c" />
     <ClCompile Include="Position.c" />
+    <ClCompile Include="PrecMatrix.c" />
     <ClCompile Include="R_x.c" />
     <ClCompile Include="R_y.c" />
     <ClCompile Include="R_z.c" />
@@ -49,13 +55,17 @@
     <ClCompile Include="unit.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AccelPointMass.h" />
     <ClInclude Include="anglesdr.h" />
     <ClInclude Include="Array.h" />
+    <ClInclude Include="Cheb3D.h" />
     <ClInclude Include="eccanom.h" />
     <ClInclude Include="EqnEquinox.h" />
     <ClInclude Include="Frac.h" />
     <ClInclude Include="FuncionesMatlab.h" />
+    <ClInclude Include="gast.h" />
     <ClInclude Include="Geodetic.h" />
+    <ClInclude Include="GHAMatrix.h" />
     <ClInclude Include="globales.h" />
     <ClInclude Include="gmst.h" />
     <ClInclude Include="hgibbs.h" />
@@ -70,7 +80,9 @@
     <ClInclude Include="NutAngles.h" />
     <ClInclude Include="NutMatrix.h" />
     <ClInclude Include="ode.h" />
+    <ClInclude Include="PoleMatrix.h" />
     <ClInclude Include="Position.h" />
+    <ClInclude Include="PrecMatrix.h" />
     <ClInclude Include="R_x.h" />
     <ClInclude Include="R_y.h" />
     <ClInclude Include="R_z.h" />

@@ -11,7 +11,7 @@ void JPL_Eph_DE430( double Mjd_TDB , double *r_Mercury , double *r_Venus,
     extern double **PC;
     double JD, *v1, *v2, *PCtemp, t1, dt, *Cx_Earth,
             *Cy_Earth,*Cz_Earth, *Cx, *Cy, *Cz; 
-    int i, j, temp[4];
+    int i, j, *temp;
 
     JD = Mjd_TDB + 2400000.5;
        

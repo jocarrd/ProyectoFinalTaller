@@ -5,7 +5,7 @@
 #include <float.h>
 #include "Array.h"
 
-// matrices
+
 
 double dot(double* v1, int n1, double* v2, int n2)
 {
