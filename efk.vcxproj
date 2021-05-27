@@ -22,7 +22,9 @@
     <ClCompile Include="AccelPointMass.c" />
     <ClCompile Include="anglesdr.c" />
     <ClCompile Include="Array.c" />
+    <ClCompile Include="AzElPa.c" />
     <ClCompile Include="Cheb3D.c" />
+    <ClCompile Include="doubler.c" />
     <ClCompile Include="eccanom.c" />
     <ClCompile Include="EqnEquinox.c" />
     <ClCompile Include="Frac.c" />
@@ -58,7 +60,9 @@
     <ClInclude Include="AccelPointMass.h" />
     <ClInclude Include="anglesdr.h" />
     <ClInclude Include="Array.h" />
+    <ClInclude Include="AzElPa.h" />
     <ClInclude Include="Cheb3D.h" />
+    <ClInclude Include="doubler.h" />
     <ClInclude Include="eccanom.h" />
     <ClInclude Include="EqnEquinox.h" />
     <ClInclude Include="Frac.h" />
