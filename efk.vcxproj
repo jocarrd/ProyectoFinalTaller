@@ -19,6 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Accel.c" />
+    <ClCompile Include="AccelHarmonic.c" />
     <ClCompile Include="AccelPointMass.c" />
     <ClCompile Include="anglesdr.c" />
     <ClCompile Include="Array.c" />
@@ -40,6 +42,7 @@
     <ClCompile Include="LTC.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="MeanObliquity.c" />
+    <ClCompile Include="MeasUpdate.c" />
     <ClCompile Include="Mjday.c" />
     <ClCompile Include="Mjday_TDB.c" />
     <ClCompile Include="NutAngles.c" />
@@ -54,9 +57,12 @@
     <ClCompile Include="sign_.c" />
     <ClCompile Include="testIOD_KF.c" />
     <ClCompile Include="timediff.c" />
+    <ClCompile Include="TimeUpdate.c" />
     <ClCompile Include="unit.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Accel.h" />
+    <ClInclude Include="AccelHarmonic.h" />
     <ClInclude Include="AccelPointMass.h" />
     <ClInclude Include="anglesdr.h" />
     <ClInclude Include="Array.h" />
@@ -79,6 +85,7 @@
     <ClInclude Include="Legendre.h" />
     <ClInclude Include="LTC.h" />
     <ClInclude Include="MeanObliquity.h" />
+    <ClInclude Include="MeasUpdate.h" />
     <ClInclude Include="Mjday.h" />
     <ClInclude Include="Mjday_TDB.h" />
     <ClInclude Include="NutAngles.h" />
@@ -92,6 +99,7 @@
     <ClInclude Include="R_z.h" />
     <ClInclude Include="sign_.h" />
     <ClInclude Include="timediff.h" />
+    <ClInclude Include="TimeUpdate.h" />
     <ClInclude Include="unit.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

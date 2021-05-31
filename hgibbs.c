@@ -6,14 +6,13 @@
 #include "iodkf.h"
 #include "unit.h"
 #include "hgibbs.h"
-#include <string.h>
 
 
-double* hgibbs(double* r1, double* r2, double* r3, double Mjd1, double Mjd2, double Mjd3)
+double* hgibbs(double* r1, double* r2, double* r3, double Mjd1, double Mjd2, double Mjd3 , char  error [])
 {
     double theta, theta1, copa, magr1, magr2, magr3, tolangle, dt21, dt31, dt32, term1, term2, term3;
     double* v2, * p, * pn, * r1n;
-    string error;
+   
 
     error = "ok";
     theta = 0.0;

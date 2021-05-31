@@ -267,3 +267,45 @@ void printArray(double** mat, int nf, int nc)
         printf("\n");
     }
 }
+
+double* mat_x_vec(double** m, int nf, int nc, double* v, double n) {
+
+    double* result;
+    int f, c;
+
+    result = vector(n);
+    for (f = 0; f < nf; f++) {
+        for (c = 0; c < nc; c++) {
+            result[f] += m[f][c] * v[c];
+        }
+    }
+
+    return result;
+
+}
+
+double* esc_x_vec(double k, double* v, int n) {
+    double* result;
+    int i;
+
+    result = vector(3);
+
+    for (i = 0; i < n; i++) {
+        result[i] = k * v[i];
+    }
+
+
+
+}
+
+int find2(double* v, int n, double JD)
+{
+    int i = 0;
+    while (i < n) {
+        if (fabs(v[i] - JD) < pow(10, -10)) {
+            break;
+        }
+        ++i;
+    }
+    return i;
+}

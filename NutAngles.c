@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include "NutAngles.h"
 #include "iodkf.h"
+#include "Array.h"
 
 
 
@@ -10,7 +11,7 @@ void NutAngles(double Mjd_TT, double *dpsi, double *deps) {
     double T, T2, T3, l, lp, F, D, Om, rev, arg;
     int i;
     int N_coeff = 106;
-    double ** C[][] ={
+    double ** C[106][9] ={
         
         {0, 0, 0, 0, 1, -1719960, -1742, 920250, 89}, 
         {0, 0, 0, 0, 2, 20620, 2, -8950, 5}, 
@@ -159,7 +160,7 @@ void NutAngles(double Mjd_TT, double *dpsi, double *deps) {
 
     
     for (i = 0; i < N_coeff; i++) {
-        arg = (C[i][0] * l + C[i][1]* lp + C[i][2] * F + C[i][3] * D + C[i][4] * Om) /(Arcs);
+        arg = (C[i][0] * l   + C[i][1]* lp + C[i][2] * F + C[i][3] * D + C[i][4] * Om) /(Arcs);
         *dpsi = *dpsi + (C[i][5] + C[i][6] * T) * sin(arg);
         *deps = *deps + (C[i][7] + C[i][8] * T) * cos(arg);
     }

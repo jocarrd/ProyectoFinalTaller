@@ -30,7 +30,15 @@ void anglesdr(double az1, double az2, double az3, double el1, double el2, double
 	los3[2] = sin(el3);
 
 
-	double* lon1, * lat1, * lon2, * lat2, * lon3, * lat3, * h1, * h2, * h3;
+	double* lon1 = vector(3);
+	double* lat1 = vector(3);
+	double* lon2 = vector(3);
+	double* lat2 = vector(3);
+	double* lon3 = vector(3);
+	double* lat3 = vector(3);
+	double* h1 = vector(3);
+	double* h2 = vector(3);
+	double* h3 = vector(3);
 
 	Geodetic(rsite1, lon1, lat1, h1);
 	Geodetic(rsite2, lon2, lat2, h2);

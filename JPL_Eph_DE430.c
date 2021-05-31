@@ -12,6 +12,7 @@ void JPL_Eph_DE430( double Mjd_TDB , double *r_Mercury , double *r_Venus,
     double JD, *v1, *v2, *PCtemp, t1, dt, *Cx_Earth,
             *Cy_Earth,*Cz_Earth, *Cx, *Cy, *Cz; 
     int i, j, *temp;
+    double Mjd0;
 
     JD = Mjd_TDB + 2400000.5;
        
@@ -39,11 +40,16 @@ void JPL_Eph_DE430( double Mjd_TDB , double *r_Mercury , double *r_Venus,
      for(j = 0; j<4;++j){
          temp[j] = 231 + 13*j; }
     
+
+     Cx = vector(3);
+     Cy = vector(3);
+     Cz = vector(3);
+
     Cx_Earth = vector(24);  
     Cy_Earth = vector(24);
     Cz_Earth = vector(24);
     
-    for(j = 0; j<4;  ++j){
+    for(j = 0; j<3;  ++j){
         Cx_Earth[j + 12] = Cx[j];
         Cy_Earth[j + 12] = Cy[j];
         Cz_Earth[j + 12] = Cz[j];
@@ -52,9 +58,7 @@ void JPL_Eph_DE430( double Mjd_TDB , double *r_Mercury , double *r_Venus,
     for(j = 0; j < 4; ++j){
         temp[j] += 39;    }
     
-    Cx = vector(12);
-    Cy = vector(12);
-    Cz = vector(12);
+   
     
      for(j = 0; j < 12;++j){
         Cx[j] = PCtemp[temp[j]-1];

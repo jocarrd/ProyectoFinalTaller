@@ -15,11 +15,12 @@ int main() {
 
     extern double **PC, **Cnm, **Snm, **eopdata;
     extern int n_eqn;
+    extern AuxParam;
     
-    extern Param AuxParam;
+   
     double **obs, aux1, aux2, ss, az, el, Dist, sigma_range, sigma_az, sigma_el, lat, lon, alt, *Rs, *Y0_apr, Mjd0, Mjd_UTC;
     FILE *fp;
-    int f, c, n, m, nobs, i, Y, M, D, hh, mm;
+    int f, c, n, m, nobs, i, Y, M, D, hh, mm, T;
     char line[55], y[5], mo[3], d[3], h[3], mi[3], s[7], a[9], e[9], di[10];
 
     PC = array(2285, 1020);

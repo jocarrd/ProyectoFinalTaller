@@ -2,7 +2,7 @@
 #ifndef GLOBALES_H
 #define GLOBALES_H
 
-#ifdef __cplusplus
+
 
 typedef  struct{ 
     double  Mjd_UTC;
@@ -15,5 +15,6 @@ Param AuxParam;
 
 #endif 
 
-#endif
+
+
 

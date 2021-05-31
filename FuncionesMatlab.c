@@ -104,3 +104,89 @@ void LiberarMatriz(double **mat, int filas, int colum){
 
 
 
+
+
+
+int find2(double* v, int n, double JD)
+
+{
+
+    int i = 0;
+
+
+
+    while (i < n) {
+
+        if (fabs(v[i] - JD) < pow(10, -10)) {
+
+            break;
+
+        }
+
+        ++i;
+
+    }
+
+
+
+    return i;
+
+}
+
+
+
+
+
+
+
+int find1(double* v1, int n1, double* v2, int n2, double JD)
+
+{
+
+    int i1 = 0, i2 = 0, ind1 = 0, ind2 = 0;
+
+
+
+    if (n1 != n2) {
+
+        printf("find1: n1 != n2\n");
+
+        exit(EXIT_FAILURE);
+
+    }
+
+
+
+    while (i1 < n1) {
+
+        if (v1[i1] > JD) {
+
+            ind1 = i1;
+
+            break;
+
+        }
+
+        ++i1;
+
+    }
+
+    while (i2 < n2) {
+
+        if (v2[i2] > JD) {
+
+            ind2 = i2;
+
+            break;
+
+        }
+
+        ++i2;
+
+    }
+
+
+
+    return (ind1 < ind2 ? ind1 : ind2);
+
+}
