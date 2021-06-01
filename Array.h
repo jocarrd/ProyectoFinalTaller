@@ -30,6 +30,9 @@ double* esc_x_vec(double k, double* v, int n);
 int find2(double* v, int n, double JD);
 
 double* sumV(double * a, int i, double* b, int j);
+double* restV(double* a, int i, double* b, int j); 
+
+
 
 #endif
 

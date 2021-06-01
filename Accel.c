@@ -4,7 +4,7 @@
 double* Accel(double x, double * Y) {
 
 	double * dY = vector(3);
-	extern AuxParam;
+	extern  Param;
 
 
 	double* x_pole = vector(1);

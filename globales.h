@@ -6,6 +6,7 @@
 
 typedef  struct{ 
     double  Mjd_UTC;
+    double Mjd_TT;
     int  n,  m,  sun,  moon,  planets;
 } Param;
 

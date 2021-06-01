@@ -15,7 +15,7 @@ int main() {
 
     extern double **PC, **Cnm, **Snm, **eopdata;
     extern int n_eqn;
-    extern AuxParam;
+    extern Param;
     
    
     double **obs, aux1, aux2, ss, az, el, Dist, sigma_range, sigma_az, sigma_el, lat, lon, alt, *Rs, *Y0_apr, Mjd0, Mjd_UTC;

@@ -22,6 +22,7 @@
     <ClCompile Include="Accel.c" />
     <ClCompile Include="AccelHarmonic.c" />
     <ClCompile Include="AccelPointMass.c" />
+    <ClCompile Include="angl.c" />
     <ClCompile Include="anglesdr.c" />
     <ClCompile Include="Array.c" />
     <ClCompile Include="AzElPa.c" />
@@ -35,6 +36,7 @@
     <ClCompile Include="Geodetic.c" />
     <ClCompile Include="GHAMatrix.c" />
     <ClCompile Include="gmst.c" />
+    <ClCompile Include="G_AccelHarmonic.c" />
     <ClCompile Include="hgibbs.c" />
     <ClCompile Include="IERS.c" />
     <ClCompile Include="JPL_Eph_DE430.c" />
@@ -59,11 +61,13 @@
     <ClCompile Include="timediff.c" />
     <ClCompile Include="TimeUpdate.c" />
     <ClCompile Include="unit.c" />
+    <ClCompile Include="VarEqn.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Accel.h" />
     <ClInclude Include="AccelHarmonic.h" />
     <ClInclude Include="AccelPointMass.h" />
+    <ClInclude Include="angl.h" />
     <ClInclude Include="anglesdr.h" />
     <ClInclude Include="Array.h" />
     <ClInclude Include="AzElPa.h" />
@@ -78,6 +82,7 @@
     <ClInclude Include="GHAMatrix.h" />
     <ClInclude Include="globales.h" />
     <ClInclude Include="gmst.h" />
+    <ClInclude Include="G_AccelHarmonic.h" />
     <ClInclude Include="hgibbs.h" />
     <ClInclude Include="IERS.h" />
     <ClInclude Include="iodkf.h" />
@@ -101,6 +106,7 @@
     <ClInclude Include="timediff.h" />
     <ClInclude Include="TimeUpdate.h" />
     <ClInclude Include="unit.h" />
+    <ClInclude Include="VarEqn.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
