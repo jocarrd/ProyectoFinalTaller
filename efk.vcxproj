@@ -29,6 +29,7 @@
     <ClCompile Include="Cheb3D.c" />
     <ClCompile Include="doubler.c" />
     <ClCompile Include="eccanom.c" />
+    <ClCompile Include="elements.c" />
     <ClCompile Include="EqnEquinox.c" />
     <ClCompile Include="Frac.c" />
     <ClCompile Include="FuncionesMatlab.c" />
@@ -74,6 +75,7 @@
     <ClInclude Include="Cheb3D.h" />
     <ClInclude Include="doubler.h" />
     <ClInclude Include="eccanom.h" />
+    <ClInclude Include="elements.h" />
     <ClInclude Include="EqnEquinox.h" />
     <ClInclude Include="Frac.h" />
     <ClInclude Include="FuncionesMatlab.h" />

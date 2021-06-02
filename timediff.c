@@ -1,6 +1,6 @@
 #include "timediff.h"
 
-double timediff(double UT1_UTC, double  TAI_UTC, double* UT1_GPS, double* TT_UTC, double* GPS_UTC)
+void timediff(double UT1_UTC, double  TAI_UTC, double* UT1_GPS, double* TT_UTC, double* GPS_UTC)
 {
     double TT_TAI = 32.184; // TT-TAI time difference [s]
 

@@ -24,7 +24,7 @@ double* Accel(double x, double * Y) {
 	double* TT_UTC= vector(1);
 	double* GPS_UTC= vector(1);
 
-	double GPS_UTC= timediff(UT1_UTC, TAI_UTC,UT1_GPS,TT_UTC,GPS_UTC);
+	 timediff(*UT1_UTC, *TAI_UTC,UT1_GPS,TT_UTC,GPS_UTC); 
 
 
 	double Mjd_UT1 = AuxParam.Mjd_UTC + x / 86400 + (*UT1_UTC) / 86400;
@@ -37,17 +37,17 @@ double* Accel(double x, double * Y) {
 	 double** E = prod(PoleMatrix(*x_pole, *y_pole), 3, 3, prod(GHAMatrix(Mjd_UT1),3,3,T,3,3), 3, 3);
 
 
-	 double* r_Mercury;
-	 double* r_Venus;
-	 double* r_Earth;
-	 double* r_Mars;
-	 double* r_Jupiter;
-	 double* r_Saturn;
-	 double* r_Uranus;
-	 double* r_Neptune;
-	 double* r_Pluto; 
-	 double* r_Moon;
-	 double* r_Sun;
+	 double* r_Mercury = vector(1);
+	 double* r_Venus = vector(1);
+	 double* r_Earth = vector(1);
+	 double* r_Mars = vector(1);
+	 double* r_Jupiter = vector(1);
+	 double* r_Saturn = vector(1);
+	 double* r_Uranus = vector(1);
+	 double* r_Neptune = vector(1);
+	 double* r_Pluto = vector(1);
+	 double* r_Moon = vector(1);
+	 double* r_Sun = vector(1);
 
 	double  MJD_TDB = Mjday_TDB(Mjd_TT);
 

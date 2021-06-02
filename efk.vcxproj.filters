@@ -144,6 +144,9 @@
     <ClCompile Include="angl.c">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+    <ClCompile Include="elements.c">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h">
@@ -273,6 +276,9 @@
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="angl.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="elements.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>

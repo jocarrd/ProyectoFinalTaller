@@ -1,69 +1,5 @@
-﻿  Accel.c
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Accel.c(7,15): warning C4091: 'extern ': se ha omitido a la izquierda de 'Param' cuando no hay ninguna variable declarada
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Accel.c(27,9): error C2040: 'GPS_UTC: 'double' se diferencia en los niveles de direccionamiento indirecto de 'double *'
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Accel.c(27,26): warning C4013: 'timediff' sin definir; se supone que extern devuelve como resultado int
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Accel.c(54,15): warning C4013: 'JPL_Eph_DE430' sin definir; se supone que extern devuelve como resultado int
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Accel.c(66,61): warning C4047: 'función': 'int' es distinto en los niveles de direccionamiento indirecto de 'double *'
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Accel.c(66,56): warning C4024: 'AccelPointMass': tipos distintos para el parámetro formal y el parámetro real 3
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Accel.c(67,62): warning C4047: 'función': 'int' es distinto en los niveles de direccionamiento indirecto de 'double *'
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Accel.c(67,56): warning C4024: 'AccelPointMass': tipos distintos para el parámetro formal y el parámetro real 3
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Accel.c(72,47): warning C4047: 'función': 'int' es distinto en los niveles de direccionamiento indirecto de 'double *'
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Accel.c(72,38): warning C4024: 'AccelPointMass': tipos distintos para el parámetro formal y el parámetro real 3
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Accel.c(73,47): warning C4047: 'función': 'int' es distinto en los niveles de direccionamiento indirecto de 'double *'
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Accel.c(73,40): warning C4024: 'AccelPointMass': tipos distintos para el parámetro formal y el parámetro real 3
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Accel.c(74,46): warning C4047: 'función': 'int' es distinto en los niveles de direccionamiento indirecto de 'double *'
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Accel.c(74,40): warning C4024: 'AccelPointMass': tipos distintos para el parámetro formal y el parámetro real 3
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Accel.c(75,49): warning C4047: 'función': 'int' es distinto en los niveles de direccionamiento indirecto de 'double *'
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Accel.c(75,40): warning C4024: 'AccelPointMass': tipos distintos para el parámetro formal y el parámetro real 3
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Accel.c(76,48): warning C4047: 'función': 'int' es distinto en los niveles de direccionamiento indirecto de 'double *'
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Accel.c(76,40): warning C4024: 'AccelPointMass': tipos distintos para el parámetro formal y el parámetro real 3
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Accel.c(77,48): warning C4047: 'función': 'int' es distinto en los niveles de direccionamiento indirecto de 'double *'
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Accel.c(77,40): warning C4024: 'AccelPointMass': tipos distintos para el parámetro formal y el parámetro real 3
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Accel.c(78,49): warning C4047: 'función': 'int' es distinto en los niveles de direccionamiento indirecto de 'double *'
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Accel.c(78,40): warning C4024: 'AccelPointMass': tipos distintos para el parámetro formal y el parámetro real 3
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Accel.c(79,47): warning C4047: 'función': 'int' es distinto en los niveles de direccionamiento indirecto de 'double *'
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Accel.c(79,40): warning C4024: 'AccelPointMass': tipos distintos para el parámetro formal y el parámetro real 3
-  doubler.c
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\doubler.c(11,16): error C2082: nueva definición del parámetro formal 'r2'
-  Geodetic.c
+﻿  Geodetic.c
 C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Geodetic.c(35,22): warning C4244: 'función': conversión de 'double' a 'int'; posible pérdida de datos
-  G_AccelHarmonic.c
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\G_AccelHarmonic.c(15,57): warning C4244: 'función': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\G_AccelHarmonic.c(15,64): warning C4244: 'función': conversión de 'double' a 'int'; posible pérdida de datos
-  hgibbs.c
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\hgibbs.c(34,18): warning C4013: 'crossProd' sin definir; se supone que extern devuelve como resultado int
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\hgibbs.c(34,32): warning C4047: '=': 'double *' es distinto en los niveles de direccionamiento indirecto de 'int'
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\hgibbs.c(35,14): warning C4013: 'unit' sin definir; se supone que extern devuelve como resultado int
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\hgibbs.c(35,17): warning C4047: '=': 'double *' es distinto en los niveles de direccionamiento indirecto de 'int'
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\hgibbs.c(36,19): warning C4047: '=': 'double *' es distinto en los niveles de direccionamiento indirecto de 'int'
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\hgibbs.c(39,31): warning C4244: 'función': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\hgibbs.c(44,17): warning C4013: 'angl' sin definir; se supone que extern devuelve como resultado int
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\hgibbs.c(56,24): warning C4013: 'vec_x_esc' sin definir; se supone que extern devuelve como resultado int
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\hgibbs.c(56,38): warning C4047: 'función': 'double *' es distinto en los niveles de direccionamiento indirecto de 'int'
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\hgibbs.c(56,24): warning C4024: 'sumV': tipos distintos para el parámetro formal y el parámetro real 1
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\hgibbs.c(56,71): warning C4047: 'función': 'double *' es distinto en los niveles de direccionamiento indirecto de 'int'
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\hgibbs.c(56,57): warning C4024: 'sumV': tipos distintos para el parámetro formal y el parámetro real 1
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\hgibbs.c(56,99): warning C4047: 'función': 'double *' es distinto en los niveles de direccionamiento indirecto de 'int'
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\hgibbs.c(56,85): warning C4024: 'sumV': tipos distintos para el parámetro formal y el parámetro real 3
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\hgibbs.c(58,12): warning C4477: 'printf' : la cadena de formato '%d' requiere un argumento de tipo 'int', pero el argumento variádico 1 tiene el tipo 'char *'
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\hgibbs.c(58,36): warning C4474: "printf": se pasaron demasiados argumentos para la cadena de formato
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\hgibbs.c(58,36): message : los marcadores de posición y sus parámetros esperan 1 argumentos variádicos, pero se proporcionaron 3
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\hgibbs.c(59,24): warning C4474: "printf": se pasaron demasiados argumentos para la cadena de formato
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\hgibbs.c(59,24): message : los marcadores de posición y sus parámetros esperan 0 argumentos variádicos, pero se proporcionaron 1
-  Legendre.c
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Legendre.c(5,32): warning C4013: 'matrizZeros' sin definir; se supone que extern devuelve como resultado int
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Legendre.c(9,22): warning C4013: 'sqrt' sin definir; se supone que extern devuelve como resultado int
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Legendre.c(9,31): warning C4013: 'cos' sin definir; se supone que extern devuelve como resultado int
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Legendre.c(10,33): warning C4013: 'sin' sin definir; se supone que extern devuelve como resultado int
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Legendre.c(88,15): warning C4013: 'liberarMatriz' sin definir; se supone que extern devuelve como resultado int
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Legendre.c(5,1): warning C4047: 'inicializando': 'double **' es distinto en los niveles de direccionamiento indirecto de 'int'
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Legendre.c(6,1): warning C4047: 'inicializando': 'double **' es distinto en los niveles de direccionamiento indirecto de 'int'
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Legendre.c(93,7): error C2084: la función 'void Legendre(int,int,double,double **,double **)' ya tiene un cuerpo
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Legendre.c(1): message : vea la definición anterior de 'Legendre'
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Legendre.c(98,1): warning C4047: 'inicializando': 'double **' es distinto en los niveles de direccionamiento indirecto de 'int'
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Legendre.c(99,1): warning C4047: 'inicializando': 'double **' es distinto en los niveles de direccionamiento indirecto de 'int'
-  LTC.c
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\LTC.c(19,12): warning C4047: 'return': 'double **' es distinto en los niveles de direccionamiento indirecto de 'double *'
   main.c
 C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\main.c(18,17): warning C4091: 'extern ': se ha omitido a la izquierda de 'Param' cuando no hay ninguna variable declarada
 C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\main.c(36,24): warning C4477: 'fscanf' : la cadena de formato '%lf' requiere un argumento de tipo 'double *', pero el argumento variádico 6 tiene el tipo 'double'
@@ -199,16 +135,8 @@ C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\NutAng
 C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\NutAngles.c(119,1): warning C4047: 'inicializando': 'double **' es distinto en los niveles de direccionamiento indirecto de 'int'
 C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\NutAngles.c(120,1): warning C4047: 'inicializando': 'double **' es distinto en los niveles de direccionamiento indirecto de 'int'
 C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\NutAngles.c(121,1): warning C4047: 'inicializando': 'double **' es distinto en los niveles de direccionamiento indirecto de 'int'
-  NutMatrix.c
-  PoleMatrix.c
-  PrecMatrix.c
-  R_y.c
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\R_y.c(6,9): warning C4013: 'cos' sin definir; se supone que extern devuelve como resultado int
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\R_y.c(7,9): warning C4013: 'sin' sin definir; se supone que extern devuelve como resultado int
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\R_y.c(8,16): warning C4013: 'array' sin definir; se supone que extern devuelve como resultado int
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\R_y.c(8,22): warning C4047: '=': 'double **' es distinto en los niveles de direccionamiento indirecto de 'int'
+  timediff.c
   unit.c
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\unit.c(8,16): warning C4013: 'norm' sin definir; se supone que extern devuelve como resultado int
   VarEqn.c
 C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\VarEqn.c(5,15): warning C4091: 'extern ': se ha omitido a la izquierda de 'Param' cuando no hay ninguna variable declarada
 C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\VarEqn.c(20,6): warning C4013: 'IERS' sin definir; se supone que extern devuelve como resultado int
@@ -221,14 +149,10 @@ C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\VarEqn
 C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\VarEqn.c(34,71): warning C4013: 'GHAMatrix' sin definir; se supone que extern devuelve como resultado int
 C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\VarEqn.c(34,80): warning C4047: 'función': 'double **' es distinto en los niveles de direccionamiento indirecto de 'int'
 C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\VarEqn.c(34,71): warning C4024: 'prod': tipos distintos para el parámetro formal y el parámetro real 1
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\VarEqn.c(53,31): warning C4013: 'G_AccelHarmonic' sin definir; se supone que extern devuelve como resultado int
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\VarEqn.c(96,14): warning C4047: 'return': 'double *' es distinto en los niveles de direccionamiento indirecto de 'double **'
+C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\VarEqn.c(54,31): warning C4013: 'G_AccelHarmonic' sin definir; se supone que extern devuelve como resultado int
+C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\VarEqn.c(97,14): warning C4047: 'return': 'double *' es distinto en los niveles de direccionamiento indirecto de 'double **'
 C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\VarEqn.c(31,1): warning C4047: 'inicializando': 'double **' es distinto en los niveles de direccionamiento indirecto de 'int'
 C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\VarEqn.c(32,1): warning C4047: 'inicializando': 'double **' es distinto en los niveles de direccionamiento indirecto de 'int'
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\VarEqn.c(53,1): warning C4047: 'inicializando': 'double **' es distinto en los niveles de direccionamiento indirecto de 'int'
+C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\VarEqn.c(54,1): warning C4047: 'inicializando': 'double **' es distinto en los niveles de direccionamiento indirecto de 'int'
   Generando código...
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\unit.c(13): error C4700: se utilizó la variable local 'outvec' sin inicializar
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\PrecMatrix.c(17): warning C4716: 'PrecMatrix': debe devolver un valor
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\hgibbs.c(26): error C4700: se utilizó la variable local 'v2' sin inicializar
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\G_AccelHarmonic.c(23): warning C4716: 'G_AccelHarmonic': debe devolver un valor
 C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Geodetic.c(33): error C4700: se utilizó la variable local 'N' sin inicializar

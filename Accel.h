@@ -15,6 +15,8 @@
 #include "PoleMatrix.h"
 #include "GHAMatrix.h"
 #include "AccelPointMass.h"
+#include "timediff.h"
+#include "JPL_Eph_DE430.h"
 
 double* Accel(double x, double* Y);
 

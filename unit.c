@@ -1,11 +1,14 @@
 #include "unit.h"
+#include "Array.h"
 
 double* unit(double* vec, int n)
 {
-    double* outvec, small, magv;
+    double  small, magv;
+
+    double* outvec = vector(3);
 
     small = 0.000001;
-    magv = norm(vec, 3);
+    magv = norma(vec, 3);
 
     if (magv > small)
         for (int i = 0; i < 3; i++)

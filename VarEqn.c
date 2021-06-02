@@ -39,9 +39,9 @@ double* VarEqn(double x, double* yPhi) {
 	 r[0] = yPhi[0];
 	 r[1] = yPhi[1];
 	 r[2] = yPhi[2];
-	 v[3]= yPhi[3];
-	 v[4]= yPhi[4];
-	 v[5]= yPhi[5];
+	 v[0]= yPhi[3];
+	 v[1]= yPhi[4];
+	 v[2]= yPhi[5];
 
 	 double** Phi = array(6, 6);
 	 int i;
