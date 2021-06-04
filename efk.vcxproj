@@ -62,6 +62,8 @@
       <DeploymentContent>true</DeploymentContent>
     </ClCompile>
     <ClCompile Include="testIOD_KF.c" />
+    <ClCompile Include="testR_x.c" />
+    <ClCompile Include="testUnit.c" />
     <ClCompile Include="timediff.c" />
     <ClCompile Include="TimeUpdate.c" />
     <ClCompile Include="unit.c" />

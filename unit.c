@@ -1,5 +1,6 @@
 #include "unit.h"
 #include "Array.h"
+#include <math.h>
 
 double* unit(double* vec, int n)
 {
@@ -13,7 +14,7 @@ double* unit(double* vec, int n)
     if (magv > small)
         for (int i = 0; i < 3; i++)
         {
-            outvec[i] = vec[i] / magv;
+            outvec[i] = ((vec[i] / magv));
         }
     else
         for (int i = 0; i < 3; i++)

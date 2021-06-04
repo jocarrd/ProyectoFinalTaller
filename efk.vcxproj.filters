@@ -153,6 +153,12 @@
     <ClCompile Include="testIOD_KF.c">
       <Filter>TestUnitarios</Filter>
     </ClCompile>
+    <ClCompile Include="testUnit.c">
+      <Filter>TestUnitarios</Filter>
+    </ClCompile>
+    <ClCompile Include="testR_x.c">
+      <Filter>TestUnitarios</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h">

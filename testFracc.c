@@ -12,11 +12,26 @@
 int tests_run = 0;
 
 
-int test_fracc() {
+int test_fracc1() {
     
    double f= Frac(5.1);
+
   
-   _assert(f == 0.1000);
+   _assert(esIgual(f,0.10000));
+
+   
+   return 0;
+
+
+}
+
+int test_fracc2() {
+    
+   double f= Frac(6);
+
+  
+   _assert(esIgual(f,0));
+
    
    return 0;
 
@@ -27,11 +42,20 @@ int test_fracc() {
 int all_tests() {
 
 
-	_verify(test_fracc);
+	_verify(test_fracc1);
+	_verify(test_fracc2);
 	return 0;
 
 }
 
+int esIgual(double c , double b){
+
+
+if(c==b){
+return 0;
+}
+return 1;
+}
 
 
 
