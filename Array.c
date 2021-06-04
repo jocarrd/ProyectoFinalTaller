@@ -284,6 +284,25 @@ double* mat_x_vec(double** m, int nf, int nc, double* v, double n) {
 
 }
 
+double* mat_x_esc(double** m, int nf, int nc,  double n) {
+
+    double* result;
+    int f, c;
+
+    result = vector(n);
+    for (f = 0; f < nf; f++) {
+        for (c = 0; c < nc; c++) {
+            result[f] += m[f][c] * n;
+        }
+    }
+
+    return result;
+
+}
+
+
+
+
 double* esc_x_vec(double k, double* v, int n) {
     double* result;
     int i;
@@ -309,3 +328,23 @@ int find2(double* v, int n, double JD)
     }
     return i;
 }
+
+double* sumV(double* a, int i, double* b, int j) {
+
+    int ii;
+    double* salida = vector(i);
+    for (ii = 0; ii < i;ii++) {
+        salida[ii] = a[ii] + b[ii];
+    }
+    return salida;
+}
+double* restV(double* a, int i, double* b, int j) {
+    int ii;
+    double* salida = vector(i);
+    for (ii = 0; ii < i; ii++) {
+        salida[ii] = a[ii] -b[ii];
+    }
+    return salida;
+}
+
+

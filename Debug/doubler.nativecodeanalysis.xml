@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+      <FILENAME>doubler.c</FILENAME>
+      <LINE>108</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Usando la memoria sin inicializar 'n'.</DESCRIPTION>
+    <FUNCTION>doubler</FUNCTION>
+    <DECORATED>doubler</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>5</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>6</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>11</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>12</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>14</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>23</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>30</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>32</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>36</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>47</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>51</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaración</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'n' no se ha inicializado</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>bifurcar</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Omitir esta bifurcación, (se asume que 'e*e&lt;0.990000' es false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>91</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>91</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>91</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>91</LINE>
+        <COLUMN>43</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>93</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>94</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>95</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>97</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>98</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>100</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>101</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>103</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>104</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>108</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>doubler.c</FILENAME>
+        <LINE>108</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>uso</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Se usa 'n', pero puede que no se haya inicializado</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

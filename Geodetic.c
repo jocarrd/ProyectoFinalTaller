@@ -30,6 +30,7 @@ void Geodetic(double * r, double  *lon, double  * lat, double *h) {
 		ZdZ = Z + dZ;
 		Nh = sqrt(rho2 + ZdZ * ZdZ);
 		SinPhi = ZdZ / Nh;
+		N = R_equ / sqrt(1.0 - e2 * SinPhi * SinPhi);
 		dZ_new = N * e2 * SinPhi;
 
 		if (abs(dZ - dZ_new) < epsRequ) {

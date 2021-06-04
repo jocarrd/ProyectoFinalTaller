@@ -12,7 +12,7 @@ double* Cheb3D(double t , double N , double Ta , double Tb ,double * Cx, double 
 	double* f1 = vector(3);
 	double* f2 = vector(3);
 	int i;
-	double* old_f1 = Vector(3);
+	double* old_f1 = vector(3);
 
 	for(i = N; i < 2;i--) {
 		for (int j = 0; j < 3; j++) {
@@ -26,7 +26,7 @@ double* Cheb3D(double t , double N , double Ta , double Tb ,double * Cx, double 
 	}
 
 	
-	double* ChebApp = Vector(3);
+	double* ChebApp = vector(3);
 
 	for (int j = 0; j < 3; j++) {
 

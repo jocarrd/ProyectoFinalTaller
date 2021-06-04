@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="TestUnitarios">
+      <UniqueIdentifier>{14ff8d4b-d395-40e5-89c0-a5251dd39d42}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Array.c">
@@ -45,9 +48,6 @@
     <ClCompile Include="R_x.c">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="testIOD_KF.c">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
     <ClCompile Include="FuncionesMatlab.c">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
@@ -70,9 +70,6 @@
       <Filter>Archivos de origen</Filter>
     </ClCompile>
     <ClCompile Include="EqnEquinox.c">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="ode_test.c">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
     <ClCompile Include="R_y.c">
@@ -146,6 +143,15 @@
     </ClCompile>
     <ClCompile Include="elements.c">
       <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ode_test.c">
+      <Filter>TestUnitarios</Filter>
+    </ClCompile>
+    <ClCompile Include="testFracc.c">
+      <Filter>TestUnitarios</Filter>
+    </ClCompile>
+    <ClCompile Include="testIOD_KF.c">
+      <Filter>TestUnitarios</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

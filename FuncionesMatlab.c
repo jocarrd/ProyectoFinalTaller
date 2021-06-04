@@ -1,3 +1,5 @@
+
+/*
 #include "FuncionesMatlab.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -190,3 +192,5 @@ int find1(double* v1, int n1, double* v2, int n2, double JD)
     return (ind1 < ind2 ? ind1 : ind2);
 
 }
+
+*/

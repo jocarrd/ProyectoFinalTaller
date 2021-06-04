@@ -370,6 +370,8 @@ int all_tests() {
     return 0;
 }
 
+/*
+
 int main() {
     int result = all_tests();
 
@@ -382,4 +384,6 @@ int main() {
 
     return result != 0;
 }
+
+*/
 

@@ -81,16 +81,16 @@ void JPL_Eph_DE430( double Mjd_TDB , double *r_Mercury , double *r_Venus,
     } 
     
     
-    
+  
     
     
     
     /*
 
 
+     * r_Earth = 1e3 * Cheb3D(Mjd_TDB, 13, Mjd0, Mjd0 + 16, Cx_Earth(13 * j + 1:13 * j + 13),
+        Cy_Earth(13 * j + 1:13 * j + 13), Cz_Earth(13 * j + 1:13 * j + 13))';
 
-r_Earth = 1e3*Cheb3D(Mjd_TDB, 13, Mjd0, Mjd0+16, Cx_Earth(13*j+1:13*j+13),...
-                     Cy_Earth(13*j+1:13*j+13), Cz_Earth(13*j+1:13*j+13))';
 
 temp = (441:13:480);
 Cx_Moon = PCtemp(temp(1):temp(2)-1);

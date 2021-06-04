@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+      <FILENAME>FuncionesMatlab.c</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Desreferenciando el puntero NULL 'matriz'. </DESCRIPTION>
+    <FUNCTION>Zero</FUNCTION>
+    <DECORATED>Zero</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>FuncionesMatlab.c</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaración</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'matriz' puede ser NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>FuncionesMatlab.c</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>FuncionesMatlab.c</FILENAME>
+        <LINE>10</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>FuncionesMatlab.c</FILENAME>
+        <LINE>10</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>bifurcar</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Entrar en este bucle, (se asume 'i&lt;filas')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>FuncionesMatlab.c</FILENAME>
+        <LINE>12</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>uso</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'matriz' se desreferencia, pero puede que siga siendo NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+      <FILENAME>FuncionesMatlab.c</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Desreferenciando el puntero NULL 'm'. </DESCRIPTION>
+    <FUNCTION>matrizIni</FUNCTION>
+    <DECORATED>matrizIni</DECORATED>
+    <FUNCLINE>85</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>FuncionesMatlab.c</FILENAME>
+        <LINE>86</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>FuncionesMatlab.c</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>FuncionesMatlab.c</FILENAME>
+        <LINE>89</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaración</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'m' puede ser NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>FuncionesMatlab.c</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>FuncionesMatlab.c</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>bifurcar</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Entrar en este bucle, (se asume 'i&lt;filas')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>FuncionesMatlab.c</FILENAME>
+        <LINE>91</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>uso</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'m' se desreferencia, pero puede que siga siendo NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

@@ -58,6 +58,9 @@
     <ClCompile Include="R_y.c" />
     <ClCompile Include="R_z.c" />
     <ClCompile Include="sign_.c" />
+    <ClCompile Include="testFracc.c">
+      <DeploymentContent>true</DeploymentContent>
+    </ClCompile>
     <ClCompile Include="testIOD_KF.c" />
     <ClCompile Include="timediff.c" />
     <ClCompile Include="TimeUpdate.c" />

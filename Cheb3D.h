@@ -1,5 +1,5 @@
 #pragma once
-#ifdef CHEB3D_H
+#ifndef CHEB3D_H
 #define CHEB3D_H
 
 

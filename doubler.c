@@ -5,8 +5,8 @@ void doubler(double cc1, double cc2,  double magrsite1, double  magrsite2, doubl
     double rho1 = (-cc1 + sqrt(pow(cc1, 2) - 4 * (pow(magrsite1, 2) - pow(magr1in, 2)))) / 2.0;
     double rho2 = (-cc2 + sqrt(pow(cc2, 2) - 4 * (pow(magrsite2, 2) - pow(magr2in, 2)))) / 2.0;
 
-    double* r1 = sumaVectores(vectorPorConst(los1, 3, rho1), 3, rsite1, 3);
-    r2 = sumaVectores(vectorPorConst(los2, 3, rho2), 3, rsite2, 3);
+    double* r1 = sumV(vectorPorConst(los1, 3, rho1), 3, rsite1, 3);
+    r2 = sumV(vectorPorConst(los2, 3, rho2), 3, rsite2, 3);
 
     *magr1 = norma(r1, 3);
     *magr2 = norma(r2, 3);
@@ -20,7 +20,7 @@ void doubler(double cc1, double cc2,  double magrsite1, double  magrsite2, doubl
     }
 
     double rho3 = -dot(rsite3, 3, w, 3) / dot(los3, 3, w, 3);
-    r3 = sumaVectores(vectorPorConst(los3, 3, rho3), 3, rsite3, 3);
+    r3 = sumV(vectorPorConst(los3, 3, rho3), 3, rsite3, 3);
     double magr3 = norma(r3, 3);
 
     double cosdv21 = dot(r2, 3, r1, 3) / (*magr2 * *magr1);

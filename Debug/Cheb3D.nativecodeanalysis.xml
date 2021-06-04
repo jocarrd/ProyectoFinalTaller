@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+      <FILENAME>Cheb3D.c</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6293</DEFECTCODE>
+    <DESCRIPTION>Bucle For definido incorrecto:  recuento de un mínimo.</DESCRIPTION>
+    <FUNCTION>Cheb3D</FUNCTION>
+    <DECORATED>Cheb3D</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

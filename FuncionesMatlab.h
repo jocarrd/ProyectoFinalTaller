@@ -1,3 +1,4 @@
+/*
 #ifndef FUNCIONESMATLAB_H
 #define FUNCIONESMATLAB_H
 #include <stdio.h>
@@ -25,3 +26,4 @@ void LiberarMatriz(double **, int , int );
 
 
 #endif
+*/

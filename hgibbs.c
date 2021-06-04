@@ -53,7 +53,7 @@ double* hgibbs(double* r1, double* r2, double* r3, double Mjd1, double Mjd2, dou
     term2 = (dt32 - dt21) * (1.0 / (dt21 * dt32) + GM_Earth / (12.0 * magr2 * magr2 * magr2));
     term3 = dt21 * (1.0 / (dt32 * dt31) + GM_Earth / (12.0 * magr3 * magr3 * magr3));
 
-    v2 = sumV(vec_x_esc(r1, 3, term1), 3, sumV(vec_x_esc(r2, 3, term2), 3, vec_x_esc(r3, 3, term3), 3), 3);
+    v2 = sumV(esc_x_vec(term1,r1, 3), 3, sumV(esc_x_vec(term2,r2, 3), 3, esc_x_vec(term3,r3, 3), 3), 3);
 
     printf("%d", "El angulo es: ", theta, " rad");
     printf("Error?: ", error);

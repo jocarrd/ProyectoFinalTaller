@@ -11,7 +11,7 @@ double* AccelHarmonic(double* r, double** E, int n_max, int m_max) {
     double gm = 398600.4415e9;    
 
     
-    double* r_bf = prodMatVec(E, 3, 3, r, 3);
+    double* r_bf = mat_x_vec(E, 3, 3, r, 3);
 
 
   
@@ -59,6 +59,6 @@ double* AccelHarmonic(double* r, double** E, int n_max, int m_max) {
     a_bf[2] = az;
 
     //Inertial acceleration
-    double* a = prodMatVec(E, 3, 3, a_bf, 3);
+    double* a = mat_x_vec(E, 3, 3, a_bf, 3);
     return a;
 }

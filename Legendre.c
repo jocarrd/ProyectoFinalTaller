@@ -1,9 +1,10 @@
+#include "Legendre.h"
 void Legendre(int n, int m, double fi, double** pnm, double** dpnm)
 {
 
 
-	double** aux_pnm = matrizZeros(n + 2, m + 2);
-	double** aux_dpnm = matrizZeros(n + 2, m + 2);
+	double** aux_pnm = array(n + 2, m + 2);
+	double** aux_dpnm = array(n + 2, m + 2);
 	aux_pnm[1][1] = 1;
 	aux_dpnm[1][1] = 0;
 	aux_pnm[2][2] = sqrt(3) * cos(fi);
@@ -85,8 +86,8 @@ void Legendre(int n, int m, double fi, double** pnm, double** dpnm)
 		}
 	}
 
-	liberarMatriz(aux_pnm, n + 2, m + 2);
-	liberarMatriz(aux_dpnm, n + 2, m + 2);
+	freeArray(aux_pnm, n + 2, m + 2); 
+	freeArray(aux_dpnm, n + 2, m + 2);
 
 
 
