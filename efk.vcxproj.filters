@@ -159,6 +159,15 @@
     <ClCompile Include="testR_x.c">
       <Filter>TestUnitarios</Filter>
     </ClCompile>
+    <ClCompile Include="testR_y.c">
+      <Filter>TestUnitarios</Filter>
+    </ClCompile>
+    <ClCompile Include="testR_z.c">
+      <Filter>TestUnitarios</Filter>
+    </ClCompile>
+    <ClCompile Include="testTimediff.c">
+      <Filter>TestUnitarios</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h">

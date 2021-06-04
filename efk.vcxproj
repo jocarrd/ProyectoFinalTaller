@@ -63,6 +63,9 @@
     </ClCompile>
     <ClCompile Include="testIOD_KF.c" />
     <ClCompile Include="testR_x.c" />
+    <ClCompile Include="testR_y.c" />
+    <ClCompile Include="testR_z.c" />
+    <ClCompile Include="testTimediff.c" />
     <ClCompile Include="testUnit.c" />
     <ClCompile Include="timediff.c" />
     <ClCompile Include="TimeUpdate.c" />

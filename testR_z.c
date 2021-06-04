@@ -2,7 +2,7 @@
 #include "Array.h"
 #include <float.h>
 #include <stdio.h>
-#include "R_x.h"
+#include "R_z.h"
 #include <math.h>
 
 
@@ -13,28 +13,26 @@
 int tests_run = 0;
 
 
-int test_Rx1() {
+int test_Rz1() {
 
-    
-
-    double** resultado = R_x(0.1);
+    double** resultado = R_z(0.1);
 
     double** comprobar = array(3, 3);
-    comprobar[0][0] = 1.0000000000000000000;
-    comprobar[0][1] = 0.0000000000000000000;
+    comprobar[0][0] = 0.9950041652780258200;
+    comprobar[0][1] = 0.0998334166468281550;
     comprobar[0][2] = 0.0000000000000000000;
 
-    comprobar[1][0] = 0.0000000000000000000;
+    comprobar[1][0] = -0.0998334166468281550;
     comprobar[1][1] = 0.9950041652780258200;
-    comprobar[1][2] = 0.0998334166468281550;
+    comprobar[1][2] = 0.0000000000000000000;
 
     comprobar[2][0] = 0.0000000000000000000;
-    comprobar[2][1] = -0.0998334166468281550;
-    comprobar[2][2] = 0.9950041652780258200;
+    comprobar[2][1] = 0.0000000000000000000;
+    comprobar[2][2] = 1.0000000000000000000;
 
     printArray(resultado, 3, 3);
 
-    _assert(compare(comprobar,3, 3, resultado, 3,3));
+    _assert(compare(comprobar, 3, 3, resultado, 3, 3));
 
 
     return 0;
@@ -46,8 +44,8 @@ int test_Rx1() {
 int all_tests() {
 
 
-    _verify(test_Rx1);
-    
+    _verify(test_Rz1);
+
 
     return 0;
 
