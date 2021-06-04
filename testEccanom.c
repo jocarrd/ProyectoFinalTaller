@@ -2,7 +2,7 @@
 #include "Array.h"
 #include <float.h>
 #include <stdio.h>
-#include "timediff.h"
+#include "eccanom.h"
 #include <math.h>
 
 
@@ -12,41 +12,40 @@
 
 int tests_run = 0;
 
+
 int esIgual(double c, double b) {
 
     printf("c: %f\n", c);
     printf("b: %f\n", b);
 
-    if (c == b) {  
+    if (c == b) {
         return 0;
     }
     return 1;
 }
 
 
+int test_Eccanom_1() {
 
-
-
-int test_Timediff1() {
-
-    double* UT1_GPS = vector(1);
-    double* TT_UTC=vector(1);
-    double* GPS_UTC = vector(1);
-
-
-     timediff(20,22,UT1_GPS,TT_UTC,GPS_UTC);
-     
    
+    double resultado = EccAnom(40, 23);
+    printf("resultado: %f\n", resultado);
 
-     printf("Tests run: %f\n", *UT1_GPS);
-     printf("Tests run: %f\n", *TT_UTC);
-     printf("Tests run: %f\n", *GPS_UTC);
-   
+    _assert(esIgual(3.1066, resultado));
 
-    _assert(esIgual(*UT1_GPS, 17.000000));
-    _assert(esIgual(*TT_UTC,  54.184000));
-    _assert(esIgual(*GPS_UTC,  3.000000));
 
+    return 0;
+
+
+}
+
+int test_Eccanom_2() {
+
+
+    double resultado = EccAnom(1, 3);
+    printf("resultado: %f\n", resultado);
+
+    _assert(esIgual(2.5850, resultado));
 
 
     return 0;
@@ -55,12 +54,11 @@ int test_Timediff1() {
 }
 
 
-
-
 int all_tests() {
 
 
-    _verify(test_Timediff1);
+    _verify(test_Eccanom_1);
+    _verify(test_Eccanom_2);
 
 
     return 0;

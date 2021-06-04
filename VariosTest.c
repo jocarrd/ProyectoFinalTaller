@@ -5,6 +5,9 @@
 #include "Position.h"
 #include "R_x.h"
 #include "NutAngles.h"
+#include "MeanObliquity.h"
+#include "NutMatrix.h"
+#include "Mjday_TDB.h"
 
 #define FAIL() printf("\nfailure in %s() line %d\n", __func__, __LINE__)
 #define _assert(test) do { if (!(test)) { FAIL(); return 1; } } while(0)
@@ -29,7 +32,7 @@ int NutMatrix_01() {
     sol[2][1] = -3.51117792296018e-05;
     sol[2][2] = 0.999999999076491;
 
-    m = NutMat(49746.1097222222);
+    m = NutMatrix(49746.1097222222);
 
     _assert(compare(m, 3, 3, sol, 3, 3));
     freeArray(sol, 3, 3);
@@ -38,7 +41,7 @@ int NutMatrix_01() {
     return 0;
 }
 
-//SACA LOS VALORES DE dpsi Y deps DE MATLAB CON LA INSTRUCCION "[dpsi,deps] = NutAngles(Mjd0)"
+
 
 int NutAngles_01() {
     double dpsi, deps, dpsi_sol, deps_sol;
@@ -58,7 +61,7 @@ int Mjday_TDB_01() {
     double mj, sol;
 
     sol = 49746.1097222304;
-    //print("Mj = %5.15lf\n", Mjday_TDB(49746.1097222222));
+    
     _assert(fabs(sol - Mjday_TDB(49746.1097222222)) < pow(10, -10));
 
     return 0;
@@ -67,14 +70,14 @@ int Mjday_TDB_01() {
 }
 
 
-//COJE DE MATLAB SOL CON LA INSTRUCION "MeanObliquity(Mjd0)"
+
 
 int MeanObliquity_01() {
     double mj, sol;
     sol = 0.409103979370901;
 
     
-    //print("Mj = %5.15lf\n", MeanObliquity(49746.1097222222));
+   
 
     _assert(fabs(sol - MeanObliquity(49746.1097222222)) < pow(10, -10));
     return 0;
@@ -370,7 +373,7 @@ int all_tests() {
     return 0;
 }
 
-/*
+
 
 int main() {
     int result = all_tests();
@@ -385,5 +388,5 @@ int main() {
     return result != 0;
 }
 
-*/
+
 

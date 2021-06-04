@@ -150,9 +150,6 @@
     <ClCompile Include="testFracc.c">
       <Filter>TestUnitarios</Filter>
     </ClCompile>
-    <ClCompile Include="testIOD_KF.c">
-      <Filter>TestUnitarios</Filter>
-    </ClCompile>
     <ClCompile Include="testUnit.c">
       <Filter>TestUnitarios</Filter>
     </ClCompile>
@@ -166,6 +163,15 @@
       <Filter>TestUnitarios</Filter>
     </ClCompile>
     <ClCompile Include="testTimediff.c">
+      <Filter>TestUnitarios</Filter>
+    </ClCompile>
+    <ClCompile Include="VariosTest.c">
+      <Filter>TestUnitarios</Filter>
+    </ClCompile>
+    <ClCompile Include="testEccanom.c">
+      <Filter>TestUnitarios</Filter>
+    </ClCompile>
+    <ClCompile Include="testLegendre.c">
       <Filter>TestUnitarios</Filter>
     </ClCompile>
   </ItemGroup>
