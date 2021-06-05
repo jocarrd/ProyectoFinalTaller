@@ -2,7 +2,7 @@
 #define ARRAY_h_
 
 
-
+double* cross(double* v, double* w);
 double norma(double* v, int n);
 double dot(double* v1, int n1, double* v2, int n2);
 double* vector(int n);

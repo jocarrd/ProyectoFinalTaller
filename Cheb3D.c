@@ -22,6 +22,7 @@ double* Cheb3D(double t , double N , double Ta , double Tb ,double * Cx, double 
 			f1[j] = 2 * tau * f1[j] - f2[j];
 			f2[j] = old_f1[j];
 		}
+
 		f1[0] += Cx[i - 1];
 		f1[1] += Cy[i - 1];
 		f1[2] += Cz[i - 1];

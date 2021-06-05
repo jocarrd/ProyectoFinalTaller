@@ -5,6 +5,15 @@
 #include <float.h>
 #include "Array.h"
 
+double* cross(double* v, double* w) {
+    double* r = vector(3);
+    r[0] = v[1] * w[2] - v[2] * w[1];
+    r[1] = v[2] * w[0] - v[0] * w[2];
+    r[2] = v[0] * w[1] - v[1] * w[0];
+    return r;
+}
+
+
 
 
 double dot(double* v1, int n1, double* v2, int n2)
@@ -312,7 +321,7 @@ double* esc_x_vec(double k, double* v, int n) {
     for (i = 0; i < n; i++) {
         result[i] = k * v[i];
     }
-
+    return result;
 
 
 }

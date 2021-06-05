@@ -13,7 +13,7 @@ double angl(double* vec1, double* vec2) {
     double	magv1 = norma(vec1,3);
     double magv2 = norma(vec2,3);
     double temp;
-    double theta;
+    double theta = undefined;
 
 
     if ((magv1 * magv2) > pow(small , 2)) {
@@ -27,5 +27,7 @@ double angl(double* vec1, double* vec2) {
         theta = acos(temp);
 
     }
+
+    return theta;
 
 }

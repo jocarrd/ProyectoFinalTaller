@@ -186,6 +186,12 @@
     <ClCompile Include="testCheb3D.c">
       <Filter>TestUnitarios</Filter>
     </ClCompile>
+    <ClCompile Include="testDoubler.c">
+      <Filter>TestUnitarios</Filter>
+    </ClCompile>
+    <ClCompile Include="anglesg.c">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h">
@@ -318,6 +324,9 @@
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="elements.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="anglesg.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>

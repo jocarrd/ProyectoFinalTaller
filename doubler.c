@@ -5,22 +5,22 @@ void doubler(double cc1, double cc2,  double magrsite1, double  magrsite2, doubl
     double rho1 = (-cc1 + sqrt(pow(cc1, 2) - 4 * (pow(magrsite1, 2) - pow(magr1in, 2)))) / 2.0;
     double rho2 = (-cc2 + sqrt(pow(cc2, 2) - 4 * (pow(magrsite2, 2) - pow(magr2in, 2)))) / 2.0;
 
-    double* r1 = sumV(vectorPorConst(los1, 3, rho1), 3, rsite1, 3);
-    r2 = sumV(vectorPorConst(los2, 3, rho2), 3, rsite2, 3);
+    double* r1 = sumV(esc_x_vec(rho1,los1, 3), 3, rsite1, 3);
+    r2 = sumV(esc_x_vec(rho2,los2, 3), 3, rsite2, 3);
 
     *magr1 = norma(r1, 3);
     *magr2 = norma(r2, 3);
 
     double* w = vector(5);
     if (direct == 'y') {
-        w = vectorPorConst(cross(r1, r2), 3, 1 / (*magr1 * *magr2));
+        w = esc_x_vec( 1 / ((*magr1) * (*magr2)), cross(r1, r2), 3);
     }
     else {
-        w = vectorPorConst(cross(r1, r2), 3, -1 / (*magr1 * *magr2));
+        w = esc_x_vec( -1 / (*magr1 * *magr2), cross(r1, r2), 3);
     }
 
     double rho3 = -dot(rsite3, 3, w, 3) / dot(los3, 3, w, 3);
-    r3 = sumV(vectorPorConst(los3, 3, rho3), 3, rsite3, 3);
+    r3 = sumV(esc_x_vec( rho3,los3,3), 3, rsite3, 3);
     double magr3 = norma(r3, 3);
 
     double cosdv21 = dot(r2, 3, r1, 3) / (*magr2 * *magr1);
@@ -88,13 +88,13 @@ void doubler(double cc1, double cc2,  double magrsite1, double  magrsite2, doubl
     }
     else {
 
-        double sindh32, sindh21, deltah32, deltah21,
+        double sindh32, sindh21, deltah32, deltah21;
 
-            n = sqrt(GM_Earth / -1 * pow(*a, 3));
+         n = sqrt(GM_Earth / -1 * pow(*a, 3));
         s = *magr2 / p * sqrt(pow(e, 2) - 1) * esinv2;
         c = *magr2 / p * (pow(e, 2) + ecosv2);
 
-        sindh32 = magr3 / sqrt(-1 * *a * p) * sindv32 - magr3 / p * (1 - cosdv32) * s;
+        sindh32 = magr3 / sqrt(-1 * (*a) * p) * sindv32 - magr3 / p * (1 - cosdv32) * s;
         sindh21 = *magr1 / sqrt(-1 * *a * p) * sindv21 + *magr1 / p * (1 - cosdv21) * s;
 
         deltah32 = log(sindh32 + sqrt(pow(sindh32, 2) + 1));
