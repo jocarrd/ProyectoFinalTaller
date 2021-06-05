@@ -58,10 +58,14 @@
     <ClCompile Include="R_y.c" />
     <ClCompile Include="R_z.c" />
     <ClCompile Include="sign_.c" />
+    <ClCompile Include="testCheb3D.c" />
     <ClCompile Include="testEccanom.c" />
+    <ClCompile Include="testEqnequinox.c" />
     <ClCompile Include="testFracc.c">
       <DeploymentContent>true</DeploymentContent>
     </ClCompile>
+    <ClCompile Include="testGast.c" />
+    <ClCompile Include="testGmst.c" />
     <ClCompile Include="testLegendre.c" />
     <ClCompile Include="VariosTest.c" />
     <ClCompile Include="testR_x.c" />

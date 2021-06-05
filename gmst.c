@@ -1,5 +1,6 @@
 #include "iodkf.h"
 #include "gmst.h"
+#include "Frac.h"
 
 
 double gmst(double Mjd_UT1) {
