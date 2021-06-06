@@ -16,6 +16,6 @@ double ** LTC(double log, double lat) {
 		M[1, i] = M[2, i];
 		M[2, i] = aux;
 	}
-	return aux;
+	return M;
 
 }

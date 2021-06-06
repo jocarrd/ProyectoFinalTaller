@@ -37,6 +37,7 @@
     <ClCompile Include="gast.c" />
     <ClCompile Include="Geodetic.c" />
     <ClCompile Include="GHAMatrix.c" />
+    <ClCompile Include="gibbs.c" />
     <ClCompile Include="gmst.c" />
     <ClCompile Include="G_AccelHarmonic.c" />
     <ClCompile Include="hgibbs.c" />
@@ -55,6 +56,8 @@
     <ClCompile Include="PoleMatrix.c" />
     <ClCompile Include="Position.c" />
     <ClCompile Include="PrecMatrix.c" />
+    <ClCompile Include="quartic.c" />
+    <ClCompile Include="rpoly.c" />
     <ClCompile Include="R_x.c" />
     <ClCompile Include="R_y.c" />
     <ClCompile Include="R_z.c" />
@@ -99,6 +102,7 @@
     <ClInclude Include="gast.h" />
     <ClInclude Include="Geodetic.h" />
     <ClInclude Include="GHAMatrix.h" />
+    <ClInclude Include="gibbs.h" />
     <ClInclude Include="globales.h" />
     <ClInclude Include="gmst.h" />
     <ClInclude Include="G_AccelHarmonic.h" />
@@ -118,6 +122,7 @@
     <ClInclude Include="PoleMatrix.h" />
     <ClInclude Include="Position.h" />
     <ClInclude Include="PrecMatrix.h" />
+    <ClInclude Include="rpoly.h" />
     <ClInclude Include="R_x.h" />
     <ClInclude Include="R_y.h" />
     <ClInclude Include="R_z.h" />

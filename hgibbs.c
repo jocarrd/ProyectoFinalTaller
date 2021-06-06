@@ -32,8 +32,8 @@ double* hgibbs(double* r1, double* r2, double* r3, double Mjd1, double Mjd2, dou
     dt32 = (Mjd3 - Mjd2) * 86400.0;
 
     p = crossProd(r2, 3, r3, 3);
-    pn = unit(p);
-    r1n = unit(r1);
+    pn = unit(p,3);
+    r1n = unit(r1,3);
     copa = asin(dot(pn, 3, r1n, 3));
 
     if (abs(dot(r1n, 3, pn, 3)) > 0.017452406)

@@ -14,7 +14,20 @@ double* cross(double* v, double* w) {
 }
 
 
+double** mat_x_esc(double** mat, double m , double n , double k) {
 
+    int i, j;
+
+    for (i = 0; i < 3; i++) {
+
+        for (j = 0; j < 3; j++) {
+
+            mat[i][j] = mat[i][j] * k;
+        }
+    }
+
+    return mat;
+}
 
 double dot(double* v1, int n1, double* v2, int n2)
 {
@@ -293,21 +306,7 @@ double* mat_x_vec(double** m, int nf, int nc, double* v, double n) {
 
 }
 
-double* mat_x_esc(double** m, int nf, int nc,  double n) {
 
-    double* result;
-    int f, c;
-
-    result = vector(n);
-    for (f = 0; f < nf; f++) {
-        for (c = 0; c < nc; c++) {
-            result[f] += m[f][c] * n;
-        }
-    }
-
-    return result;
-
-}
 
 
 
