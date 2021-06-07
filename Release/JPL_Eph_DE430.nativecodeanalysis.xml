@@ -1,0 +1,991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+      <FILENAME>JPL_Eph_DE430.c</FILENAME>
+      <LINE>86</LINE>
+      <COLUMN>44</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Usando la memoria sin inicializar 'Mjd0'.</DESCRIPTION>
+    <FUNCTION>JPL_Eph_DE430</FUNCTION>
+    <DECORATED>JPL_Eph_DE430</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>11</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>12</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>12</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>12</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>12</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>12</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>12</LINE>
+        <COLUMN>41</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>12</LINE>
+        <COLUMN>47</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>12</LINE>
+        <COLUMN>59</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>12</LINE>
+        <COLUMN>72</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>44</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>14</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>14</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>14</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaración</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'Mjd0' no se ha inicializado</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>17</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>23</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>23</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>30</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>32</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>36</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>75</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>bifurcar</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Omitir esta bifurcación, (se asume que '((0&lt;=dt))&amp;&amp;((dt&lt;=16))' es false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>78</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>bifurcar</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Omitir esta bifurcación, (se asume que '((16&lt;dt))&amp;&amp;((dt&lt;=32))' es false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>86</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaración</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'Mjd0' es un argumento In/Out para 'Cheb3D' (declarado en c:\users\usuariolocal\desktop\portafolio taller\proyecto\micodigo\efk\efk\cheb3d.h:8)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+        <FILENAME>JPL_Eph_DE430.c</FILENAME>
+        <LINE>86</LINE>
+        <COLUMN>44</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>uso</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Se usa 'Mjd0', pero puede que no se haya inicializado</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+      <FILENAME>JPL_Eph_DE430.c</FILENAME>
+      <LINE>80</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Desbordamiento aritmético: el operador "*" se usa en un valor de 4 bytes y, a continuación, el resultado se convierte a un valor de 8 bytes. Convierta el valor al tipo más amplio antes de llamar al operador "*" para evitar el desbordamiento (io.2).</DESCRIPTION>
+    <FUNCTION>JPL_Eph_DE430</FUNCTION>
+    <DECORATED>JPL_Eph_DE430</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+      <FILENAME>JPL_Eph_DE430.c</FILENAME>
+      <LINE>142</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Desbordamiento aritmético: el operador "*" se usa en un valor de 4 bytes y, a continuación, el resultado se convierte a un valor de 8 bytes. Convierta el valor al tipo más amplio antes de llamar al operador "*" para evitar el desbordamiento (io.2).</DESCRIPTION>
+    <FUNCTION>JPL_Eph_DE430</FUNCTION>
+    <DECORATED>JPL_Eph_DE430</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+      <FILENAME>JPL_Eph_DE430.c</FILENAME>
+      <LINE>147</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Desbordamiento aritmético: el operador "*" se usa en un valor de 4 bytes y, a continuación, el resultado se convierte a un valor de 8 bytes. Convierta el valor al tipo más amplio antes de llamar al operador "*" para evitar el desbordamiento (io.2).</DESCRIPTION>
+    <FUNCTION>JPL_Eph_DE430</FUNCTION>
+    <DECORATED>JPL_Eph_DE430</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+      <FILENAME>JPL_Eph_DE430.c</FILENAME>
+      <LINE>152</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Desbordamiento aritmético: el operador "*" se usa en un valor de 4 bytes y, a continuación, el resultado se convierte a un valor de 8 bytes. Convierta el valor al tipo más amplio antes de llamar al operador "*" para evitar el desbordamiento (io.2).</DESCRIPTION>
+    <FUNCTION>JPL_Eph_DE430</FUNCTION>
+    <DECORATED>JPL_Eph_DE430</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+      <FILENAME>JPL_Eph_DE430.c</FILENAME>
+      <LINE>157</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Desbordamiento aritmético: el operador "*" se usa en un valor de 4 bytes y, a continuación, el resultado se convierte a un valor de 8 bytes. Convierta el valor al tipo más amplio antes de llamar al operador "*" para evitar el desbordamiento (io.2).</DESCRIPTION>
+    <FUNCTION>JPL_Eph_DE430</FUNCTION>
+    <DECORATED>JPL_Eph_DE430</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+      <FILENAME>JPL_Eph_DE430.c</FILENAME>
+      <LINE>162</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Desbordamiento aritmético: el operador "*" se usa en un valor de 4 bytes y, a continuación, el resultado se convierte a un valor de 8 bytes. Convierta el valor al tipo más amplio antes de llamar al operador "*" para evitar el desbordamiento (io.2).</DESCRIPTION>
+    <FUNCTION>JPL_Eph_DE430</FUNCTION>
+    <DECORATED>JPL_Eph_DE430</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+      <FILENAME>JPL_Eph_DE430.c</FILENAME>
+      <LINE>167</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Desbordamiento aritmético: el operador "*" se usa en un valor de 4 bytes y, a continuación, el resultado se convierte a un valor de 8 bytes. Convierta el valor al tipo más amplio antes de llamar al operador "*" para evitar el desbordamiento (io.2).</DESCRIPTION>
+    <FUNCTION>JPL_Eph_DE430</FUNCTION>
+    <DECORATED>JPL_Eph_DE430</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+      <FILENAME>JPL_Eph_DE430.c</FILENAME>
+      <LINE>172</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Desbordamiento aritmético: el operador "*" se usa en un valor de 4 bytes y, a continuación, el resultado se convierte a un valor de 8 bytes. Convierta el valor al tipo más amplio antes de llamar al operador "*" para evitar el desbordamiento (io.2).</DESCRIPTION>
+    <FUNCTION>JPL_Eph_DE430</FUNCTION>
+    <DECORATED>JPL_Eph_DE430</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+      <FILENAME>JPL_Eph_DE430.c</FILENAME>
+      <LINE>231</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Desbordamiento aritmético: el operador "*" se usa en un valor de 4 bytes y, a continuación, el resultado se convierte a un valor de 8 bytes. Convierta el valor al tipo más amplio antes de llamar al operador "*" para evitar el desbordamiento (io.2).</DESCRIPTION>
+    <FUNCTION>JPL_Eph_DE430</FUNCTION>
+    <DECORATED>JPL_Eph_DE430</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+      <FILENAME>JPL_Eph_DE430.c</FILENAME>
+      <LINE>291</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Desbordamiento aritmético: el operador "*" se usa en un valor de 4 bytes y, a continuación, el resultado se convierte a un valor de 8 bytes. Convierta el valor al tipo más amplio antes de llamar al operador "*" para evitar el desbordamiento (io.2).</DESCRIPTION>
+    <FUNCTION>JPL_Eph_DE430</FUNCTION>
+    <DECORATED>JPL_Eph_DE430</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+      <FILENAME>JPL_Eph_DE430.c</FILENAME>
+      <LINE>296</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Desbordamiento aritmético: el operador "*" se usa en un valor de 4 bytes y, a continuación, el resultado se convierte a un valor de 8 bytes. Convierta el valor al tipo más amplio antes de llamar al operador "*" para evitar el desbordamiento (io.2).</DESCRIPTION>
+    <FUNCTION>JPL_Eph_DE430</FUNCTION>
+    <DECORATED>JPL_Eph_DE430</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+      <FILENAME>JPL_Eph_DE430.c</FILENAME>
+      <LINE>301</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Desbordamiento aritmético: el operador "*" se usa en un valor de 4 bytes y, a continuación, el resultado se convierte a un valor de 8 bytes. Convierta el valor al tipo más amplio antes de llamar al operador "*" para evitar el desbordamiento (io.2).</DESCRIPTION>
+    <FUNCTION>JPL_Eph_DE430</FUNCTION>
+    <DECORATED>JPL_Eph_DE430</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+      <FILENAME>JPL_Eph_DE430.c</FILENAME>
+      <LINE>360</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Desbordamiento aritmético: el operador "*" se usa en un valor de 4 bytes y, a continuación, el resultado se convierte a un valor de 8 bytes. Convierta el valor al tipo más amplio antes de llamar al operador "*" para evitar el desbordamiento (io.2).</DESCRIPTION>
+    <FUNCTION>JPL_Eph_DE430</FUNCTION>
+    <DECORATED>JPL_Eph_DE430</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+      <FILENAME>JPL_Eph_DE430.c</FILENAME>
+      <LINE>608</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Desbordamiento aritmético: el operador "*" se usa en un valor de 4 bytes y, a continuación, el resultado se convierte a un valor de 8 bytes. Convierta el valor al tipo más amplio antes de llamar al operador "*" para evitar el desbordamiento (io.2).</DESCRIPTION>
+    <FUNCTION>JPL_Eph_DE430</FUNCTION>
+    <DECORATED>JPL_Eph_DE430</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+      <FILENAME>JPL_Eph_DE430.c</FILENAME>
+      <LINE>613</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Desbordamiento aritmético: el operador "*" se usa en un valor de 4 bytes y, a continuación, el resultado se convierte a un valor de 8 bytes. Convierta el valor al tipo más amplio antes de llamar al operador "*" para evitar el desbordamiento (io.2).</DESCRIPTION>
+    <FUNCTION>JPL_Eph_DE430</FUNCTION>
+    <DECORATED>JPL_Eph_DE430</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+      <FILENAME>JPL_Eph_DE430.c</FILENAME>
+      <LINE>618</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Desbordamiento aritmético: el operador "*" se usa en un valor de 4 bytes y, a continuación, el resultado se convierte a un valor de 8 bytes. Convierta el valor al tipo más amplio antes de llamar al operador "*" para evitar el desbordamiento (io.2).</DESCRIPTION>
+    <FUNCTION>JPL_Eph_DE430</FUNCTION>
+    <DECORATED>JPL_Eph_DE430</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+      <FILENAME>JPL_Eph_DE430.c</FILENAME>
+      <LINE>671</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Desbordamiento aritmético: el operador "*" se usa en un valor de 4 bytes y, a continuación, el resultado se convierte a un valor de 8 bytes. Convierta el valor al tipo más amplio antes de llamar al operador "*" para evitar el desbordamiento (io.2).</DESCRIPTION>
+    <FUNCTION>JPL_Eph_DE430</FUNCTION>
+    <DECORATED>JPL_Eph_DE430</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+      <FILENAME>JPL_Eph_DE430.c</FILENAME>
+      <LINE>676</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Desbordamiento aritmético: el operador "*" se usa en un valor de 4 bytes y, a continuación, el resultado se convierte a un valor de 8 bytes. Convierta el valor al tipo más amplio antes de llamar al operador "*" para evitar el desbordamiento (io.2).</DESCRIPTION>
+    <FUNCTION>JPL_Eph_DE430</FUNCTION>
+    <DECORATED>JPL_Eph_DE430</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+      <FILENAME>JPL_Eph_DE430.c</FILENAME>
+      <LINE>681</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Desbordamiento aritmético: el operador "*" se usa en un valor de 4 bytes y, a continuación, el resultado se convierte a un valor de 8 bytes. Convierta el valor al tipo más amplio antes de llamar al operador "*" para evitar el desbordamiento (io.2).</DESCRIPTION>
+    <FUNCTION>JPL_Eph_DE430</FUNCTION>
+    <DECORATED>JPL_Eph_DE430</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

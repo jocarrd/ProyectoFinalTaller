@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+      <FILENAME>hgibbs.c</FILENAME>
+      <LINE>58</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6273</DEFECTCODE>
+    <DESCRIPTION>Valor no entero pasado como _Param_(2) cuando el entero es necesario para llamar a 'printf'. Tipo real: 'char [15]': si se está pasando un valor de puntero, deberá usar %p.</DESCRIPTION>
+    <FUNCTION>hgibbs</FUNCTION>
+    <DECORATED>hgibbs</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+      <FILENAME>hgibbs.c</FILENAME>
+      <LINE>58</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6271</DEFECTCODE>
+    <DESCRIPTION>Argumento adicional pasado en 'printf':  la cadena de formato no usa _Param_(3).</DESCRIPTION>
+    <FUNCTION>hgibbs</FUNCTION>
+    <DECORATED>hgibbs</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\</FILEPATH>
+      <FILENAME>hgibbs.c</FILENAME>
+      <LINE>59</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6271</DEFECTCODE>
+    <DESCRIPTION>Argumento adicional pasado en 'printf':  la cadena de formato no usa _Param_(2).</DESCRIPTION>
+    <FUNCTION>hgibbs</FUNCTION>
+    <DECORATED>hgibbs</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

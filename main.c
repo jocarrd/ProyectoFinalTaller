@@ -130,7 +130,7 @@ int main() {
     }
     fclose(fp);
 
-    sigma_range = 92.5; //[m]
+    sigma_range = 92.5; 
     sigma_az = 0.0224 * Rad;
     sigma_el = 0.0139 * Rad; 
 
@@ -167,7 +167,7 @@ int main() {
     n_eqn = 6;
 
 
-    double** Y;
+    
 
     Y = DEInteg(Accel,0,-(obs[9][1]-Mjd0)*86400.0,1e-13,1e-6,6,Y0_apr);
 
@@ -177,7 +177,7 @@ int main() {
     double** P = array(6, 6);
 
 
-    int i;
+   
     for (i = 0; i < 3; i++) {
 
         P[i][i] = 1e8;
@@ -246,7 +246,7 @@ int main() {
           int j;
           for (j =0 ; j < 6; j++) {
               
-                  Phi(:, j) = yPhi[6 * j + 1][6 * j + 6];
+               //   Phi(:, j) = yPhi[6 * j + 1][6 * j + 6];
           }
 
           double *Y = DEInteg(Accel, 0, t - t_old, 1e-13, 1e-6, 6, Y_old);
@@ -261,47 +261,47 @@ int main() {
           r[2] = Y[2];
 
 
-          s = LT * (U * r - Rs);
+       //   s = LT * (U * r - Rs);
 
          
           P = TimeUpdate(P, Phi,0);
 
   
            AzElPa(s, Azim, Elev, dAds, dEds);
-           double *dAdY = [dAds * LT * U, zeros(1, 3)];
+         //  double *dAdY = [dAds * LT * U, zeros(1, 3)];
            double K;
       
 
            // [K, Y, P] = MeasUpdate ( Y, obs(i,2), Azim, sigma_az, dAdY, P, 6 );
    
-           MeasUpdate(Y, obs[i][2], Azim, sigma_az, dAdY, 6, P,6,6,K);
+         //  MeasUpdate(Y, obs[i][2], Azim, sigma_az, dAdY, 6, P,6,6,K);
 
      
            r[0] = Y[0];
            r[1] = Y[1];
            r[2] = Y[2];
 
-          s = LT * (U * r - Rs);
+         // s = LT * (U * r - Rs);
 
          AzElPa(s, Azim, Elev, dAds, dEds);
-          dEdY = [dEds * LT * U, zeros(1, 3)];
+        //  dEdY = [dEds * LT * U, zeros(1, 3)];
 
      //[K, Y, P] = MeasUpdate ( Y, obs(i,3), Elev, sigma_el, dEdY, P, 6 );
     
-          MeasUpdate(Y, obs[i][ 3], Elev, sigma_el, dEdY, P, 6,Y, P,6,6,K);
+    //      MeasUpdate(Y, obs[i][ 3], Elev, sigma_el, dEdY, P, 6,Y, P,6,6,K);
 
      
           r[0] = Y[0];
           r[1] = Y[1];
           r[2] = Y[2];
 
-           s = LT * (U * r - Rs);
+        //   s = LT * (U * r - Rs);
           Dist = norma(s,3); 
-          dDds = (s / Dist)'
-          dDdY = [dDds * LT * U, zeros(1, 3)];
+         // dDds = (s / Dist)'';
+          //dDdY = [dDds * LT * U, zeros(1, 3)];
 
       
-         MeasUpdate(Y, obs[i][4], Dist, sigma_range, dDdY, P, 6, Y, P,6,6,K);
+       //  MeasUpdate(Y, obs[i][4], Dist, sigma_range, dDdY, P, 6, Y, P,6,6,K);
 
   }
 
@@ -315,16 +315,16 @@ int main() {
 
   double *Y0 = DEInteg(Accel, 0, -(obs[46][ 1] - obs[1][ 1]) * 86400.0, 1e-13, 1e-6, 6, Y);
 
-  double* Y_true = { 5753.173e3, 2673.361e3, 3440.304e3, 4.324207e3, -1.924299e3, -5.728216e3 };
+  double Y_true [] = { 5753.173e3, 2673.361e3, 3440.304e3, 4.324207e3, -1.924299e3, -5.728216e3 };
 
-  fprintf('\nError of Position Estimation\n');
-  fprintf('dX%10.1f [m]\n', Y0[0] - Y_true[0]);
-  fprintf('dY%10.1f [m]\n', Y0[1] - Y_true[1]);
-  fprintf('dZ%10.1f [m]\n', Y0[2] - Y_true[2]);
-  fprintf('\nError of Velocity Estimation\n');
-  fprintf('dVx%8.1f [m/s]\n', Y0[3] - Y_true[3]);
-  fprintf('dVy%8.1f [m/s]\n', Y0[] - Y_true[4]);
-  fprintf('dVz%8.1f [m/s]\n', Y0[6] - Y_true[5]);
+  printf("\nError of Position Estimation\n");
+  printf("dX%10.1f [m]\n", Y0[0] - Y_true[0]);
+  printf("dY%10.1f [m]\n", Y0[1] - Y_true[1]);
+  printf("dZ%10.1f [m]\n", Y0[2] - Y_true[2]);
+  printf("\nError of Velocity Estimation\n");
+  printf("dVx%8.1f [m/s]\n", Y0[3] - Y_true[3]);
+  printf("dVy%8.1f [m/s]\n", Y0[4] - Y_true[4]);
+  printf("dVz%8.1f [m/s]\n", Y0[5] - Y_true[5]);
 
 
 
