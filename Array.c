@@ -5,6 +5,7 @@
 #include <float.h>
 #include "Array.h"
 
+
 double* cross(double* v, double* w) {
     double* r = vector(3);
     r[0] = v[1] * w[2] - v[2] * w[1];
@@ -308,9 +309,6 @@ double* mat_x_vec(double** m, int nf, int nc, double* v, double n) {
 
 
 
-
-
-
 double* esc_x_vec(double k, double* v, int n) {
     double* result;
     int i;
@@ -323,6 +321,37 @@ double* esc_x_vec(double k, double* v, int n) {
     return result;
 
 
+}
+
+
+int find1(double* v1, int n1, double* v2, int n2, double JD)
+{
+    int i1 = 0, i2 = 0, ind1 = 0, ind2 = 0;
+    if (n1 != n2)
+    {
+        printf("find1: n1 != n2\n");
+        exit(EXIT_FAILURE);
+    }
+
+    while (i1 < n1)
+    {
+        if (v1[i1] > JD)
+        {
+            ind1 = i1;
+            break;
+        }
+        ++i1;
+    }
+    while (i2 < n2)
+    {
+        if (v2[i2] > JD)
+        {
+            ind2 = i2;
+            break;
+        }
+        ++i2;
+    }
+    return (ind1 < ind2 ? ind1 : ind2);
 }
 
 int find2(double* v, int n, double JD)

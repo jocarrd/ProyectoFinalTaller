@@ -6,6 +6,7 @@
 #include "Cheb3D.h"
 #include "iodkf.h"
 #include "Array.h"
+#include "globales.h"
 
 void JPL_Eph_DE430( double Mjd_TDB , double *r_Mercury , double *r_Venus,
                     double *r_Earth, double *r_Mars , double *r_Jupiter,

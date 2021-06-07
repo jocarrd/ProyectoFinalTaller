@@ -20,7 +20,7 @@ double angl(double* vec1, double* vec2) {
         temp = dot(vec1,3, vec2,3) / (magv1 * magv2);
 
         if (abs(temp) > 1.0) {
-            temp = signF(temp) * 1.0;
+            temp = sign(temp,temp) * 1.0;
         }
         else { theta = undefined; }
 

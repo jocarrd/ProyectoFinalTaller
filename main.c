@@ -1,4 +1,4 @@
-/*
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -10,6 +10,16 @@
 #include <math.h>
 #include "iodkf.h"
 #include "globales.h"
+#include "LTC.h"
+#include "IERS.h"
+#include "VarEqn.h"
+#include "Accel.h"
+#include "gmst.h"
+#include "TimeUpdate.h"
+#include "AzElPa.h"
+#include "MeasUpdate.h"
+
+#pragma warning (disable : 4996)
 
 int main() {
 
@@ -22,6 +32,16 @@ int main() {
     FILE *fp;
     int f, c, n, m, nobs, i, Y, M, D, hh, mm, T;
     char line[55], y[5], mo[3], d[3], h[3], mi[3], s[7], a[9], e[9], di[10];
+
+    double* Azim = vector(1);
+    double* Elev = vector(1);
+    double* dAds = vector(3);
+    double* dEds = vector(3);
+
+
+
+
+
 
     PC = array(2285, 1020);
     fp = fopen("../Data/DE430Coeff.txt", "r");
@@ -145,6 +165,175 @@ int main() {
     AuxParam.moon = 1;
     AuxParam.planets = 1;
     n_eqn = 6;
+
+
+    double** Y;
+
+    Y = DEInteg(Accel,0,-(obs[9][1]-Mjd0)*86400.0,1e-13,1e-6,6,Y0_apr);
+
+
+
+
+    double** P = array(6, 6);
+
+
+    int i;
+    for (i = 0; i < 3; i++) {
+
+        P[i][i] = 1e8;
+    }
+
+    for (i = 4; i < 6; i++) {
+
+        P[i][i] = 1e3;
+    }
+
+
+    double ** LT = LTC(lon, lat);
+
+   double ** yPhi = array(42, 1);
+   double *  Phi = vector(6);
+
+
+  int  t = 0;
+
+
+  double* x_pole = vector(1);
+  double* y_pole = vector(1);
+  double* UT1_UTC = vector(1);
+  double* LOD = vector(1);
+  double* dpsi = vector(1);
+  double* deps = vector(1);
+  double* dx_pole = vector(1);
+  double* dy_pole = vector(1);
+  double* TAI_UTC = vector(1);
+
+
+  double* UT1_TAI = vector(1);
+  double* UTC_GPS = vector(1);
+  double* UT1_GPS = vector(1);
+  double* TT_UTC = vector(1);
+  double* GPS_UTC = vector(1);
+
+  for (i = 0; i < nobs; i++) {
+
+     double  t_old = t;
+     double ** Y_old = Y;
+
+     
+          Mjd_UTC = obs[i][ 1];
+          t = (Mjd_UTC - Mjd0) * 86400.0;
+
+       IERS( Mjd_UTC, 'l', x_pole, y_pole, UT1_UTC, LOD, dpsi, deps, dx_pole, dy_pole, TAI_UTC);
+       timediff(*UT1_UTC,* TAI_UTC, UT1_TAI, UTC_GPS, UT1_GPS, TT_UTC, GPS_UTC);
+     double  Mjd_TT = Mjd_UTC + *TT_UTC / 86400;
+     double  Mjd_UT1 = Mjd_TT + (UT1_UTC - TT_UTC) / 86400.0;
+      AuxParam.Mjd_UTC = Mjd_UTC;
+      AuxParam.Mjd_TT = Mjd_TT;
+      int ii;
+      for (i = 0; i < 5; i++) {
+          yPhi[ii] = Y_old[ii];
+          int j;
+          for (j=0;j<5;j++)
+              if (ii == j)
+                  yPhi[6 * j + ii] = 1;
+              else
+                  yPhi[6 * j + ii] = 0;
+        
+             
+      }
+          yPhi = DEInteg(VarEqn, 0, t - t_old, 1e-13, 1e-6, 42, yPhi);
+          int j;
+          for (j =0 ; j < 6; j++) {
+              
+                  Phi(:, j) = yPhi[6 * j + 1][6 * j + 6];
+          }
+
+          double *Y = DEInteg(Accel, 0, t - t_old, 1e-13, 1e-6, 6, Y_old);
+
+      
+          double theta = gmst(Mjd_UT1);
+          double **U = R_z(theta);
+          double* r = vector(3);
+         
+          r[0] = Y[0];
+          r[1] = Y[1];
+          r[2] = Y[2];
+
+
+          s = LT * (U * r - Rs);
+
+         
+          P = TimeUpdate(P, Phi,0);
+
+  
+           AzElPa(s, Azim, Elev, dAds, dEds);
+           double *dAdY = [dAds * LT * U, zeros(1, 3)];
+           double K;
+      
+
+           // [K, Y, P] = MeasUpdate ( Y, obs(i,2), Azim, sigma_az, dAdY, P, 6 );
+   
+           MeasUpdate(Y, obs[i][2], Azim, sigma_az, dAdY, 6, P,6,6,K);
+
+     
+           r[0] = Y[0];
+           r[1] = Y[1];
+           r[2] = Y[2];
+
+          s = LT * (U * r - Rs);
+
+         AzElPa(s, Azim, Elev, dAds, dEds);
+          dEdY = [dEds * LT * U, zeros(1, 3)];
+
+     //[K, Y, P] = MeasUpdate ( Y, obs(i,3), Elev, sigma_el, dEdY, P, 6 );
+    
+          MeasUpdate(Y, obs[i][ 3], Elev, sigma_el, dEdY, P, 6,Y, P,6,6,K);
+
+     
+          r[0] = Y[0];
+          r[1] = Y[1];
+          r[2] = Y[2];
+
+           s = LT * (U * r - Rs);
+          Dist = norma(s,3); 
+          dDds = (s / Dist)'
+          dDdY = [dDds * LT * U, zeros(1, 3)];
+
+      
+         MeasUpdate(Y, obs[i][4], Dist, sigma_range, dDdY, P, 6, Y, P,6,6,K);
+
+  }
+
+
+
+  IERS( obs[46][ 1], 'l', x_pole, y_pole, UT1_UTC, LOD, dpsi, deps, dx_pole, dy_pole, TAI_UTC);
+   timediff(*UT1_UTC, *TAI_UTC, UT1_TAI, UTC_GPS, UT1_GPS, TT_UTC, GPS_UTC);
+  double Mjd_TT = Mjd_UTC + *TT_UTC / 86400;
+  AuxParam.Mjd_UTC = Mjd_UTC;
+  AuxParam.Mjd_TT = Mjd_TT;
+
+  double *Y0 = DEInteg(Accel, 0, -(obs[46][ 1] - obs[1][ 1]) * 86400.0, 1e-13, 1e-6, 6, Y);
+
+  double* Y_true = { 5753.173e3, 2673.361e3, 3440.304e3, 4.324207e3, -1.924299e3, -5.728216e3 };
+
+  fprintf('\nError of Position Estimation\n');
+  fprintf('dX%10.1f [m]\n', Y0[0] - Y_true[0]);
+  fprintf('dY%10.1f [m]\n', Y0[1] - Y_true[1]);
+  fprintf('dZ%10.1f [m]\n', Y0[2] - Y_true[2]);
+  fprintf('\nError of Velocity Estimation\n');
+  fprintf('dVx%8.1f [m/s]\n', Y0[3] - Y_true[3]);
+  fprintf('dVy%8.1f [m/s]\n', Y0[] - Y_true[4]);
+  fprintf('dVz%8.1f [m/s]\n', Y0[6] - Y_true[5]);
+
+
+
+
+
+
+
+
+
     
  
     freeArray(PC,2285,1020);
@@ -162,4 +351,3 @@ int main() {
 
 }
 
-*/

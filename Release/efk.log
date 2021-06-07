@@ -1,57 +1,56 @@
-﻿  Array.c
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Array.c(221,12): warning C4101: 'j': variable local sin referencia
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\Array.c(302,22): warning C4244: 'función': conversión de 'double' a 'int'; posible pérdida de datos
-testCheb3D.obj : error LNK2005: ya se definió _main en quartic.obj
+﻿  angl.c
+C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\efk\angl.c(22,21): warning C4244: 'función': conversión de 'double' a 'int'; posible pérdida de datos
+quartic.obj : error LNK2005: ya se definió _main en main.obj
+testCheb3D.obj : error LNK2005: ya se definió _main en main.obj
 testDoubler.obj : error LNK2005: ya se definió _tests_run en testCheb3D.obj
-testDoubler.obj : error LNK2005: ya se definió _main en quartic.obj
+testDoubler.obj : error LNK2005: ya se definió _main en main.obj
 testDoubler.obj : error LNK2005: ya se definió _all_tests en testCheb3D.obj
 testDoubler.obj : error LNK2005: ya se definió _esIgual en testCheb3D.obj
 testEccanom.obj : error LNK2005: ya se definió _tests_run en testCheb3D.obj
-testEccanom.obj : error LNK2005: ya se definió _main en quartic.obj
+testEccanom.obj : error LNK2005: ya se definió _main en main.obj
 testEccanom.obj : error LNK2005: ya se definió _all_tests en testCheb3D.obj
 testEccanom.obj : error LNK2005: ya se definió _esIgual en testCheb3D.obj
 testEqnequinox.obj : error LNK2005: ya se definió _tests_run en testCheb3D.obj
-testEqnequinox.obj : error LNK2005: ya se definió _main en quartic.obj
+testEqnequinox.obj : error LNK2005: ya se definió _main en main.obj
 testEqnequinox.obj : error LNK2005: ya se definió _all_tests en testCheb3D.obj
 testEqnequinox.obj : error LNK2005: ya se definió _esIgual en testCheb3D.obj
 testFracc.obj : error LNK2005: ya se definió _tests_run en testCheb3D.obj
-testFracc.obj : error LNK2005: ya se definió _main en quartic.obj
+testFracc.obj : error LNK2005: ya se definió _main en main.obj
 testFracc.obj : error LNK2005: ya se definió _esIgual en testCheb3D.obj
 testFracc.obj : error LNK2005: ya se definió _all_tests en testCheb3D.obj
 testGast.obj : error LNK2005: ya se definió _tests_run en testCheb3D.obj
-testGast.obj : error LNK2005: ya se definió _main en quartic.obj
+testGast.obj : error LNK2005: ya se definió _main en main.obj
 testGast.obj : error LNK2005: ya se definió _all_tests en testCheb3D.obj
 testGast.obj : error LNK2005: ya se definió _esIgual en testCheb3D.obj
 testGmst.obj : error LNK2005: ya se definió _tests_run en testCheb3D.obj
-testGmst.obj : error LNK2005: ya se definió _main en quartic.obj
+testGmst.obj : error LNK2005: ya se definió _main en main.obj
 testGmst.obj : error LNK2005: ya se definió _all_tests en testCheb3D.obj
 testGmst.obj : error LNK2005: ya se definió _esIgual en testCheb3D.obj
 testLegendre.obj : error LNK2005: ya se definió _tests_run en testCheb3D.obj
-testLegendre.obj : error LNK2005: ya se definió _main en quartic.obj
+testLegendre.obj : error LNK2005: ya se definió _main en main.obj
 testLegendre.obj : error LNK2005: ya se definió _all_tests en testCheb3D.obj
 testLegendre.obj : error LNK2005: ya se definió _esIgual en testCheb3D.obj
 VariosTest.obj : error LNK2005: ya se definió _tests_run en testCheb3D.obj
-VariosTest.obj : error LNK2005: ya se definió _main en quartic.obj
+VariosTest.obj : error LNK2005: ya se definió _main en main.obj
 VariosTest.obj : error LNK2005: ya se definió _all_tests en testCheb3D.obj
 testR_x.obj : error LNK2005: ya se definió _tests_run en testCheb3D.obj
-testR_x.obj : error LNK2005: ya se definió _main en quartic.obj
+testR_x.obj : error LNK2005: ya se definió _main en main.obj
 testR_x.obj : error LNK2005: ya se definió _all_tests en testCheb3D.obj
 testR_y.obj : error LNK2005: ya se definió _tests_run en testCheb3D.obj
-testR_y.obj : error LNK2005: ya se definió _main en quartic.obj
+testR_y.obj : error LNK2005: ya se definió _main en main.obj
 testR_y.obj : error LNK2005: ya se definió _all_tests en testCheb3D.obj
 testR_z.obj : error LNK2005: ya se definió _tests_run en testCheb3D.obj
-testR_z.obj : error LNK2005: ya se definió _main en quartic.obj
+testR_z.obj : error LNK2005: ya se definió _main en main.obj
 testR_z.obj : error LNK2005: ya se definió _all_tests en testCheb3D.obj
 testTimediff.obj : error LNK2005: ya se definió _tests_run en testCheb3D.obj
-testTimediff.obj : error LNK2005: ya se definió _main en quartic.obj
+testTimediff.obj : error LNK2005: ya se definió _main en main.obj
 testTimediff.obj : error LNK2005: ya se definió _all_tests en testCheb3D.obj
 testTimediff.obj : error LNK2005: ya se definió _esIgual en testCheb3D.obj
 testUnit.obj : error LNK2005: ya se definió _tests_run en testCheb3D.obj
-testUnit.obj : error LNK2005: ya se definió _main en quartic.obj
+testUnit.obj : error LNK2005: ya se definió _main en main.obj
 testUnit.obj : error LNK2005: ya se definió _all_tests en testCheb3D.obj
-angl.obj : error LNK2001: símbolo externo _signF sin resolver
 anglesg.obj : error LNK2001: símbolo externo _isreal sin resolver
 hgibbs.obj : error LNK2001: símbolo externo _crossProd sin resolver
-JPL_Eph_DE430.obj : error LNK2001: símbolo externo _find1 sin resolver
+main.obj : error LNK2001: símbolo externo _n_eqn sin resolver
 ode_test.obj : error LNK2001: símbolo externo _ode sin resolver
-C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\Release\efk.exe : fatal error LNK1120: 5 externos sin resolver
+C:\Users\usuariolocal\Desktop\Portafolio Taller\Proyecto\Micodigo\efk\Release\efk.exe : fatal error LNK1120: 4 externos sin resolver
