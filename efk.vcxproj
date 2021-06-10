@@ -52,6 +52,7 @@
     <ClCompile Include="Mjday_TDB.c" />
     <ClCompile Include="NutAngles.c" />
     <ClCompile Include="NutMatrix.c" />
+    <ClCompile Include="ode.c" />
     <ClCompile Include="ode_test.c" />
     <ClCompile Include="PoleMatrix.c" />
     <ClCompile Include="Position.c" />

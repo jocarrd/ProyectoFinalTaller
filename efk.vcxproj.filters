@@ -162,6 +162,9 @@
     <ClCompile Include="gibbs.c">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+    <ClCompile Include="ode.c">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h">
