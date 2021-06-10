@@ -24,7 +24,7 @@
 int main() {
 
     extern double **PC, **Cnm, **Snm, **eopdata;
-    extern int n_eqn;
+    extern int n1eqn;
     extern Param;
     
    
@@ -164,7 +164,7 @@ int main() {
     AuxParam.sun = 1;
     AuxParam.moon = 1;
     AuxParam.planets = 1;
-    n_eqn = 6;
+    n1eqn = 6;
 
 
     

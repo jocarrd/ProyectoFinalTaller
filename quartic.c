@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
-
+/*
 int main()
 {
     double coef[10], zeror[10], zeroi[10];
@@ -37,6 +37,7 @@ int main()
     return 0;
 }
 
+*/
 
 // FINDS THE ZEROS OF A REAL POLYNOMIAL
 // OP  - DOUBLE PRECISION VECTOR OF COEFFICIENTS IN

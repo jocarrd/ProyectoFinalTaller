@@ -147,46 +147,7 @@
     <ClCompile Include="ode_test.c">
       <Filter>TestUnitarios</Filter>
     </ClCompile>
-    <ClCompile Include="testFracc.c">
-      <Filter>TestUnitarios</Filter>
-    </ClCompile>
-    <ClCompile Include="testUnit.c">
-      <Filter>TestUnitarios</Filter>
-    </ClCompile>
-    <ClCompile Include="testR_x.c">
-      <Filter>TestUnitarios</Filter>
-    </ClCompile>
-    <ClCompile Include="testR_y.c">
-      <Filter>TestUnitarios</Filter>
-    </ClCompile>
-    <ClCompile Include="testR_z.c">
-      <Filter>TestUnitarios</Filter>
-    </ClCompile>
-    <ClCompile Include="testTimediff.c">
-      <Filter>TestUnitarios</Filter>
-    </ClCompile>
     <ClCompile Include="VariosTest.c">
-      <Filter>TestUnitarios</Filter>
-    </ClCompile>
-    <ClCompile Include="testEccanom.c">
-      <Filter>TestUnitarios</Filter>
-    </ClCompile>
-    <ClCompile Include="testLegendre.c">
-      <Filter>TestUnitarios</Filter>
-    </ClCompile>
-    <ClCompile Include="testGast.c">
-      <Filter>TestUnitarios</Filter>
-    </ClCompile>
-    <ClCompile Include="testGmst.c">
-      <Filter>TestUnitarios</Filter>
-    </ClCompile>
-    <ClCompile Include="testEqnequinox.c">
-      <Filter>TestUnitarios</Filter>
-    </ClCompile>
-    <ClCompile Include="testCheb3D.c">
-      <Filter>TestUnitarios</Filter>
-    </ClCompile>
-    <ClCompile Include="testDoubler.c">
       <Filter>TestUnitarios</Filter>
     </ClCompile>
     <ClCompile Include="anglesg.c">
