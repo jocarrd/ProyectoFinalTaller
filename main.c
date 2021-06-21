@@ -263,6 +263,8 @@ int main() {
 
        //   s = LT * (U * r - Rs);
 
+
+
          
           P = TimeUpdate(P, Phi,0);
 

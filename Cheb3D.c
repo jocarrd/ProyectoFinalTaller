@@ -15,17 +15,21 @@ double* Cheb3D(double t , double N , double Ta , double Tb ,double * Cx, double 
 	int i;
 	double* old_f1 = vector(3);
 
-	for(i = N; i >2;i--) {
+	for(i = N; i >=2;i--) {
 
 		for (int j = 0; j < 3; j++) {
 			old_f1[j] = f1[j];
-			f1[j] = 2 * tau * f1[j] - f2[j];
-			f2[j] = old_f1[j];
+			
+		}
+		double* aux1 = esc_x_vec(2 * tau,f1, 3);
+		for (int j = 0; j < 3; j++) {
+			f1[j] = aux1[j] - f2[j];
 		}
 
-		f1[0] += Cx[i - 1];
-		f1[1] += Cy[i - 1];
-		f1[2] += Cz[i - 1];
+
+		f1[0] = f1[0] + Cx[i - 1];
+		f1[1] = f1[1] + Cy[i - 1];
+		f1[2] = f1[2] + Cz[i - 1];
 	}
 	
 

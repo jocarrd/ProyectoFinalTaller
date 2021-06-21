@@ -11,7 +11,7 @@
 #include "doubler.h"
 #include "globales.h"
 #include <stdio.h>
-#include <cfloat>
+#include <float.h>
 #include "eccanom.h"
 #include "EqnEquinox.h"
 #include "Frac.h"
@@ -847,7 +847,7 @@ int all_tests() {
     return 0;
 }
 
-/*
+
 
 
 int main() {
@@ -863,5 +863,6 @@ int main() {
     return result != 0;
 }
 
-*/
+
+
 
