@@ -17,13 +17,13 @@ double* VarEqn(double x, double* yPhi) {
 
 
 
-	IERS(eopdata, AuxParam.Mjd_UTC, 'l', x_pole, y_pole, UT1_UTC, LOD, dpsi, deps, dx_pole, dy_pole, TAI_UTC);
+	IERS(AuxParam.Mjd_UTC, 'l', x_pole, y_pole, UT1_UTC, LOD, dpsi, deps, dx_pole, dy_pole, TAI_UTC);
 
 	double* UT1_GPS = vector(1);
 	double* TT_UTC = vector(1);
 	double* GPS_UTC = vector(1);
 	
-	timediff(UT1_UTC, TAI_UTC, UT1_GPS, TT_UTC, GPS_UTC);
+	timediff(*UT1_UTC, *TAI_UTC, UT1_GPS, TT_UTC, GPS_UTC);
 
 	 double Mjd_UT1 = AuxParam.Mjd_TT + (UT1_UTC - TT_UTC) / 86400;
 
